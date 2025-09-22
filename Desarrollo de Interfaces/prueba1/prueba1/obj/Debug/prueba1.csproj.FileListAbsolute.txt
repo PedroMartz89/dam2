@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\bin\Debug\prueba1.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\bin\Debug\prueba1.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\prueba1\prueba1\obj\Debug\prueba1.exe.config

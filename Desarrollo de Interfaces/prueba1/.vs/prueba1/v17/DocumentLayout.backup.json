@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\prueba1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBFCDBB-B92B-4262-80D1-E1451E1F2C5B}|prueba1\\prueba1.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\prueba1\\prueba1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FBFCDBB-B92B-4262-80D1-E1451E1F2C5B}|prueba1\\prueba1.csproj|solutionrelative:prueba1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FBFCDBB-B92B-4262-80D1-E1451E1F2C5B}|prueba1\\prueba1.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\prueba1\\prueba1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FBFCDBB-B92B-4262-80D1-E1451E1F2C5B}|prueba1\\prueba1.csproj|solutionrelative:prueba1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\prueba1\\prueba1\\Form1.cs",
+              "RelativeDocumentMoniker": "prueba1\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\prueba1\\prueba1\\Form1.cs*",
+              "RelativeToolTip": "prueba1\\Form1.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T10:06:52.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\prueba1\\prueba1\\Form1.cs",
+              "RelativeDocumentMoniker": "prueba1\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\prueba1\\prueba1\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "prueba1\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T09:55:02.844Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
