@@ -8,4 +8,3 @@ C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minical
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.csproj.CoreCompileInputs.cache
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.exe
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.pdb
-C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.exe.config
