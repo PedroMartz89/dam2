@@ -38,6 +38,10 @@ public class E03_Rueda {
         System.out.println("Rueda cambiada.");
     }
 
+    public String getEstado() {
+        return "Rodadura de rueda: " + rodaduraKm + " km";
+    }
+
     public void rodar(int km) {
         this.rodaduraKm += km;
         if (this.rodaduraKm > this.rodaduraMaxKm) {

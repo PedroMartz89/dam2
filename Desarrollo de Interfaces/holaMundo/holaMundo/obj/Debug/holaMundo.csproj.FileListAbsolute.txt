@@ -1,0 +1,8 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\bin\Debug\holaMundo.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\bin\Debug\holaMundo.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\bin\Debug\holaMundo.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\obj\Debug\holaMundo.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\obj\Debug\holaMundo.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\obj\Debug\holaMundo.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\obj\Debug\holaMundo.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\holaMundo\holaMundo\obj\Debug\holaMundo.exe.config

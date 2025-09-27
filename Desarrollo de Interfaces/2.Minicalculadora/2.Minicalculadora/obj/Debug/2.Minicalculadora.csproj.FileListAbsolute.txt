@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\bin\Debug\2.Minicalculadora.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\bin\Debug\2.Minicalculadora.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\bin\Debug\2.Minicalculadora.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\_2.Minicalculadora.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\_2.Minicalculadora.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\2.Minicalculadora\2.Minicalculadora\obj\Debug\2.Minicalculadora.exe.config

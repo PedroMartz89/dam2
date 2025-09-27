@@ -1,5 +1,4 @@
-
-package com.example.prueba;
+package com.example.myapplication;
 
 import android.os.Bundle;
 
