@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\bin\Debug\tresEnRaya.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\bin\Debug\tresEnRaya.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\bin\Debug\tresEnRaya.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\tresEnRaya\tresEnRaya\obj\Debug\tresEnRaya.exe.config

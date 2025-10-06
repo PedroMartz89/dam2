@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\bin\Debug\arrays.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\bin\Debug\arrays.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\bin\Debug\arrays.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\arrays\arrays\obj\Debug\arrays.exe.config
