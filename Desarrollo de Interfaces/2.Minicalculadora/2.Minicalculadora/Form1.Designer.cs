@@ -43,7 +43,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(481, 191);
+            this.label1.Location = new System.Drawing.Point(321, 124);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 24);
             this.label1.TabIndex = 1;
@@ -53,25 +54,28 @@
             // operador1
             // 
             this.operador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.operador1.Location = new System.Drawing.Point(208, 188);
+            this.operador1.Location = new System.Drawing.Point(139, 122);
+            this.operador1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.operador1.Name = "operador1";
-            this.operador1.Size = new System.Drawing.Size(86, 29);
+            this.operador1.Size = new System.Drawing.Size(59, 29);
             this.operador1.TabIndex = 2;
             this.operador1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // operador2
             // 
             this.operador2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.operador2.Location = new System.Drawing.Point(387, 188);
+            this.operador2.Location = new System.Drawing.Point(258, 122);
+            this.operador2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.operador2.Name = "operador2";
-            this.operador2.Size = new System.Drawing.Size(88, 29);
+            this.operador2.Size = new System.Drawing.Size(60, 29);
             this.operador2.TabIndex = 3;
             // 
             // resultado
             // 
             this.resultado.AutoSize = true;
             this.resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultado.Location = new System.Drawing.Point(505, 191);
+            this.resultado.Location = new System.Drawing.Point(337, 124);
+            this.resultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.resultado.Name = "resultado";
             this.resultado.Size = new System.Drawing.Size(60, 24);
             this.resultado.TabIndex = 5;
@@ -81,9 +85,10 @@
             // sumar
             // 
             this.sumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sumar.Location = new System.Drawing.Point(320, 122);
+            this.sumar.Location = new System.Drawing.Point(213, 79);
+            this.sumar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sumar.Name = "sumar";
-            this.sumar.Size = new System.Drawing.Size(44, 43);
+            this.sumar.Size = new System.Drawing.Size(29, 28);
             this.sumar.TabIndex = 6;
             this.sumar.Text = "+";
             this.sumar.UseVisualStyleBackColor = true;
@@ -92,9 +97,10 @@
             // restar
             // 
             this.restar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.restar.Location = new System.Drawing.Point(320, 171);
+            this.restar.Location = new System.Drawing.Point(213, 111);
+            this.restar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.restar.Name = "restar";
-            this.restar.Size = new System.Drawing.Size(44, 41);
+            this.restar.Size = new System.Drawing.Size(29, 27);
             this.restar.TabIndex = 7;
             this.restar.Text = "-";
             this.restar.UseVisualStyleBackColor = true;
@@ -103,9 +109,10 @@
             // mult
             // 
             this.mult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mult.Location = new System.Drawing.Point(320, 218);
+            this.mult.Location = new System.Drawing.Point(213, 142);
+            this.mult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mult.Name = "mult";
-            this.mult.Size = new System.Drawing.Size(44, 39);
+            this.mult.Size = new System.Drawing.Size(29, 25);
             this.mult.TabIndex = 8;
             this.mult.Text = "x";
             this.mult.UseVisualStyleBackColor = true;
@@ -114,9 +121,10 @@
             // div
             // 
             this.div.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.div.Location = new System.Drawing.Point(320, 263);
+            this.div.Location = new System.Drawing.Point(213, 171);
+            this.div.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.div.Name = "div";
-            this.div.Size = new System.Drawing.Size(44, 39);
+            this.div.Size = new System.Drawing.Size(29, 25);
             this.div.TabIndex = 9;
             this.div.Text = "/";
             this.div.UseVisualStyleBackColor = true;
@@ -126,18 +134,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(176, 29);
+            this.label2.Location = new System.Drawing.Point(132, 9);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 37);
+            this.label2.Size = new System.Drawing.Size(189, 37);
             this.label2.TabIndex = 10;
-            this.label2.Text = "MACHINE CALCULATOR";
+            this.label2.Text = "Calculadora";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 292);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.div);
             this.Controls.Add(this.mult);
@@ -147,6 +156,7 @@
             this.Controls.Add(this.operador2);
             this.Controls.Add(this.operador1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
