@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppContador</string>
+    <string name="botonIncrement">Incrementar pulsación</string>
+    <string name="botonDecrement">Decrementar pulsación</string>
+    <string name="reset">Resetear</string>
+    <string name="textoContador">Contador: </string>
+</resources>
