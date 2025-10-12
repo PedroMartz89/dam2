@@ -1,10 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Main {
 
@@ -14,78 +9,71 @@ public class Main {
     }
 
     public static void interprete(Scanner sc) throws IOException, InterruptedException {
+        System.out.println("Introduce un comando (lista = ver procesos, salir = terminar)");
+        System.out.print("> ");
 
-        System.out.println("Por favor, introduce el comando a ejecutar (lista para listado de procesos y salir para terminar)");
-        System.out.print("\n>");
-        ArrayList<Process> processes = new ArrayList<>();
+        ArrayList<Proceso> procesos = new ArrayList<>();
+
         while (true) {
             String comando = sc.nextLine();
 
             if (comando.equals("salir")) {
                 break;
             } else if (comando.equals("lista")) {
-                for (Process process : processes) {
-                    obtenerInfoProceso(process);
+                for (Proceso p : procesos) {
+                    System.out.println(p);
                 }
             } else {
                 try {
-                    processes.add(ejecutarProcess(comando));
+                    procesos.add(ejecutarProcess(comando));
                 } catch (IOException | InterruptedException e) {
                     System.out.println("Error al ejecutar el comando: " + e.getMessage());
                 }
             }
+            System.out.print("> ");
         }
 
-
         System.out.println("Cerrando la consola.");
-
     }
 
     public static void mostrarInfo(BufferedReader buffer) throws IOException {
-
-        String line = buffer.readLine();
-        while (line != null) {
+        String line;
+        while ((line = buffer.readLine()) != null) {
             System.out.println(line);
-            line = buffer.readLine();
         }
     }
 
-    public static Process ejecutarProcess(String comando) throws IOException, InterruptedException {
+    public static Proceso ejecutarProcess(String comando) throws IOException, InterruptedException {
+        Process ps = new ProcessBuilder(comando.split(" ")).start();
+        BufferedReader br = new BufferedReader(new InputStreamReader(ps.getInputStream()));
+        BufferedReader bre = new BufferedReader(new InputStreamReader(ps.getErrorStream()));
 
-        ArrayList<Proceso> procesos = new ArrayList<>();
-        Process ps = new ProcessBuilder(comando).start();
-        InputStream input = ps.getInputStream();
-        InputStream error = ps.getErrorStream();
-        BufferedReader br = new BufferedReader(new InputStreamReader(input));
-        BufferedReader bre = new BufferedReader(new InputStreamReader(error));
         mostrarInfo(br);
         mostrarInfo(bre);
-        procesos.add(obtenerInfoProceso(ps));
 
-        return ps;
+        return obtenerInfoProceso(ps);
     }
 
     public static Proceso obtenerInfoProceso(Process ps) throws IOException, InterruptedException {
         Process proceso = Runtime.getRuntime().exec("ps -eo user,pid,comm,lstart");
         BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
-        String linea = reader.readLine();
-        List<String[]> info = new ArrayList<>();
-        while (linea != null) {
 
+        String linea;
+        List<String[]> info = new ArrayList<>();
+        while ((linea = reader.readLine()) != null) {
             String[] campos = linea.trim().split("\\s+", 6);
             if (campos.length >= 6) {
-                    info.add(campos);
+                info.add(campos);
             }
         }
-        int codigoSalida = proceso.waitFor();
-        ArrayList<Proceso> procesos = new ArrayList<>();
-        for (String[] p : info) {
-            String usuario = p[0];
-            String pid = p[1];
-            String comm = p[2];
-            String fecha = p[3];
-            procesos.add(new Proceso(usuario, comm, pid, codigoSalida, fecha));
+
+        proceso.waitFor();
+
+        if (info.size() > 1) { // salta cabecera
+            String[] p = info.get(1);
+            return new Proceso(p[0], p[2], p[1], 0, p[3]);
         }
-        return procesos.getFirst();
+
+        return new Proceso("desconocido", "?", "?", -1, "?");
     }
 }
