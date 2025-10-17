@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\ejercicios3\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\ejercicios3\\ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\ejercicios3\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\ejercicios3\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
+              "RelativeDocumentMoniker": "Ejercicios3\\formMenu.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
+              "RelativeToolTip": "Ejercicios3\\formMenu.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:24:10.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formLogin.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs",
+              "RelativeDocumentMoniker": "Ejercicios3\\formLogin.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs",
+              "RelativeToolTip": "Ejercicios3\\formLogin.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:28:50.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ALUMNO.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\ALUMNO.cs",
+              "RelativeDocumentMoniker": "Ejercicios3\\ALUMNO.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\ALUMNO.cs",
+              "RelativeToolTip": "Ejercicios3\\ALUMNO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:28:29.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs",
+              "RelativeDocumentMoniker": "Ejercicios3\\formLogin.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicios3\\formLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:14:07.443Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
+              "RelativeDocumentMoniker": "Ejercicios3\\formMenu.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ejercicios3\\formMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:03:13.372Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,5 +14,12 @@ namespace Ejercicios3
         public long telfAlum;
         public string emailAlum;
         public string cursoAlum;
+
+        public override string ToString()
+        {
+            return $"{codAlum}: {nomAlum} {apellAlum} - {cursoAlum}";
+        }
     }
+
+
 }

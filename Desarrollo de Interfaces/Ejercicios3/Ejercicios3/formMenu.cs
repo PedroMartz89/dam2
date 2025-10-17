@@ -28,8 +28,12 @@ namespace Ejercicios3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-
+            listBoxAlumnos.Items.Clear();
+            foreach (ALUMNO a in arrayAlumnos)
+            {
+                if (a.nomAlum != null)
+                    listBoxAlumnos.Items.Add(a.ToString());
+            }
         }
 
         private void bttnAltas_Click(object sender, EventArgs e)
@@ -63,6 +67,7 @@ namespace Ejercicios3
                 string info = $"Código: {alumno.codAlum}, Nombre: {alumno.nomAlum}, Apellido: {alumno.apellAlum}, Tel: {alumno.telfAlum}, Email: {alumno.emailAlum}, Curso: {alumno.cursoAlum}";
                 listBoxAlumnos.Items.Add(info);
             }
+
         }
 
         private void bttnConsultas_Click(object sender, EventArgs e)
@@ -75,6 +80,24 @@ namespace Ejercicios3
                     MessageBox.Show($"Código: {alumno.codAlum}, Nombre: {alumno.nomAlum}, Apellido: {alumno.apellAlum}, Tel: {alumno.telfAlum}, Email: {alumno.emailAlum}, Curso: {alumno.cursoAlum}");
                 }
             }
+        }
+
+        private void bttnOrdenar_Click(object sender, EventArgs e)
+        {
+            Array.Sort(arrayAlumnos, (a, b) =>
+            {
+                if (a.nomAlum == null && b.nomAlum == null) return 0;
+                if (a.nomAlum == null) return 1;
+                if (b.nomAlum == null) return -1;
+                return string.Compare(a.apellAlum, b.apellAlum, StringComparison.OrdinalIgnoreCase);
+            });
+
+            MessageBox.Show("Array ordenado por apellidos");
+        }
+
+        private void bttnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
