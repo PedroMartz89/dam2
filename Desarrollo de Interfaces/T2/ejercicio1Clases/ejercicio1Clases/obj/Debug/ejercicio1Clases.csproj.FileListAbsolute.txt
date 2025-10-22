@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\bin\Debug\ejercicio1Clases.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\bin\Debug\ejercicio1Clases.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\bin\Debug\ejercicio1Clases.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.exe.config
