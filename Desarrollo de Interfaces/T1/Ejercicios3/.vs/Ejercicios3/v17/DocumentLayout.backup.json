@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\ejercicios3\\ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\ejercicios3\\ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\ejercicios3\\ejercicios3\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\ejercicios3\\ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA8D8A3B-3C32-42D2-B7E7-8F2C56D62E78}|Ejercicios3\\Ejercicios3.csproj|solutionrelative:ejercicios3\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "formLogin.cs",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs",
               "RelativeDocumentMoniker": "Ejercicios3\\formLogin.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ALUMNO.cs",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\ALUMNO.cs",
               "RelativeDocumentMoniker": "Ejercicios3\\ALUMNO.cs",
@@ -64,20 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "formMenu.cs",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
               "RelativeDocumentMoniker": "Ejercicios3\\formMenu.cs",
               "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
               "RelativeToolTip": "Ejercicios3\\formMenu.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAzwDwAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwEoAAADGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T11:06:28.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "formLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formLogin.cs",
               "RelativeDocumentMoniker": "Ejercicios3\\formLogin.cs",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "formMenu.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Ejercicios3\\Ejercicios3\\formMenu.cs",
               "RelativeDocumentMoniker": "Ejercicios3\\formMenu.cs",
