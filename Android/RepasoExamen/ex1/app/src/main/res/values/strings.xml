@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sumarNum</string>
+    <string name="titulo">Suma</string>
+    <string name="calcular">Calcular\n</string>
+    <string name="operador1">Primer número:</string>
+    <string name="operador2">Segundo número:</string>
+</resources>
