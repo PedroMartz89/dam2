@@ -9,3 +9,5 @@ C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercic
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.exe
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.pdb
 C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.Form2.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\ejercicio1Clases\ejercicio1Clases\obj\Debug\ejercicio1Clases.Form3.resources

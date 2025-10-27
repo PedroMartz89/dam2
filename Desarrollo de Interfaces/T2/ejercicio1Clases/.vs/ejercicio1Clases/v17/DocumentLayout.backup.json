@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t2\\ejercicio1clases\\ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t2\\ejercicio1clases\\ejercicio1clases\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t2\\ejercicio1clases\\ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1clases\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3FAEB70-E0E0-43BC-ACB4-E8DFCE2CC387}|ejercicio1Clases\\ejercicio1Clases.csproj|solutionrelative:ejercicio1clases\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +38,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Articulo.cs",
-              "RelativeDocumentMoniker": "ejercicio1Clases\\Articulo.cs",
-              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Articulo.cs",
-              "RelativeToolTip": "ejercicio1Clases\\Articulo.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA1wDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:09:03.601Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form3.cs",
+              "RelativeDocumentMoniker": "ejercicio1Clases\\Form3.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form3.cs",
+              "RelativeToolTip": "ejercicio1Clases\\Form3.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:02:43.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form3.cs",
+              "RelativeDocumentMoniker": "ejercicio1Clases\\Form3.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ejercicio1Clases\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:00:12.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form1.cs",
               "RelativeDocumentMoniker": "ejercicio1Clases\\Form1.cs",
               "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form1.cs",
               "RelativeToolTip": "ejercicio1Clases\\Form1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAcwM0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:42:57.549Z",
+              "WhenOpened": "2025-10-27T11:59:42.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form2.cs",
+              "RelativeDocumentMoniker": "ejercicio1Clases\\Form2.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form2.cs",
+              "RelativeToolTip": "ejercicio1Clases\\Form2.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:35:38.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form2.cs",
+              "RelativeDocumentMoniker": "ejercicio1Clases\\Form2.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ejercicio1Clases\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:34:22.986Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Articulo.cs",
+              "RelativeDocumentMoniker": "ejercicio1Clases\\Articulo.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Articulo.cs",
+              "RelativeToolTip": "ejercicio1Clases\\Articulo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwDwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:09:03.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T2\\ejercicio1Clases\\ejercicio1Clases\\Form1.cs",
               "RelativeDocumentMoniker": "ejercicio1Clases\\Form1.cs",

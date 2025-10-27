@@ -46,11 +46,11 @@ namespace ejercicio1Clases
 
         public override string ToString()
         {
-            return $"Código: {CodArticulo} | " +
-                   $"Nombre: {NombreArticulo} | " +
-                   $"Categoría: {CategoriaArticulo} | " +
-                   $"Precio: {PrecioArticulo:C} | " +
-                   $"Existencias: {ExistenciasArticulo}";
+            return $"Código: {codArticulo} | " +
+                   $"Nombre: {nombreArticulo} | " +
+                   $"Categoría: {categoriaArticulo} | " +
+                   $"Precio: {precioArticulo:€} | " +
+                   $"Existencias: {existenciasArticulo}";
         }
         public void actualizarExistencias(int cantidadPedido)
         {
@@ -58,7 +58,7 @@ namespace ejercicio1Clases
             {
                 existenciasArticulo = existenciasArticulo - cantidadPedido;
                 decimal total = precioArticulo * cantidadPedido;
-                MessageBox.Show("Pedido realizado, quedan " + ExistenciasArticulo + ",importe total: " + total);
+                MessageBox.Show("Pedido realizado, quedan " + existenciasArticulo + ",importe total: " + total);
             }
             else
             {
