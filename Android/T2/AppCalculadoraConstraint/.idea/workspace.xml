@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6bb751d-aabb-4dba-8118-baf52319f481" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.$Diagrama sin título.drawio.bkp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android Studio.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Balatro.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Clair Obscur Expedition 33.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Cult of the Lamb.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/fonts/Zyzol.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/fonts/Zyzol.otf.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/background.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/laser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/laser.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/powerupYellow_bolt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/powerupYellow_bolt.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-big.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-medium.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/rock-small.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/assets/sprites/ship.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/autoloads/game_manager.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/autoloads/game_manager.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/icon.svg.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/project.godot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/resources/zyzo_white_16.tres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/resources/zyzo_white_28.tres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/resources/zyzol_orange_70.tres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/Game Over/game_over_ui.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/Game Over/game_over_ui.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/Game Over/game_over_ui.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/HUD/hud.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/HUD/score_label.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/UI/HUD/score_label.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/asteroids/asteroid.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/asteroids/asteroid.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/asteroids/big_asteroid.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/asteroids/medium_asteroid.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/asteroids/small_asteroid.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/laser/laser.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/laser/laser.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/laser/laser.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/main/game_over_trigger.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/main/game_over_trigger.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/main/main.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/main/main.tscn4930614723.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/main/main.tscn7628503493.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/player/player.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/player/player.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/player/player.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/player/player.tscn6332426017.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/spawners/asteroid_spawner.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/spawners/asteroid_spawner.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/asteroid-shooter/scenes/spawners/asteroid_spawner.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/icon.svg.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/project.godot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/sprite_test.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/sprite_test.gd.uid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Curso Godot/prueba-1/sprite_test.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Cyberpunk 2077.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../DBeaver.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Death Stranding.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Don't Starve Together.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Elden Ring.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Encarnacion Sanchez Campoy resp firmada.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Frostpunk 2.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Frostpunk.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Godot_v4.5.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../HUMANKIND™.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Hades II.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Hogwarts Legacy.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Hollow Knight.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Horizon Forbidden West™ Complete Edition.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Jurassic World Evolution 2.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../NBA 2K21.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../PEAK.exe - Acceso directo.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Sin título 1.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Sublime Text.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../The Binding of Isaac Rebirth.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../The Last of Us™ Parte I.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../eclipse.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../tarot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Bases de datos/mySQL/Ejercicio1_SQL/aeropuerto.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Bases de datos/mySQL/Ejercicio1_SQL/bdscript1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.1/calc_command.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.1/calcular.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.1/calcular.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/entrada.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/entrada.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/factorial.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/factorial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/imprime.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/imprime.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/Tarea_2.2/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/practica4_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/practica4_1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/practica4_2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/C/practica4_2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Javascript/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Javascript/script2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Python/1.4_py_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Python/1.4_py_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Entornos/Python/ordenacion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/2.6 Práctica de div y posicionamiento/2.6 Práctica de div y posicionamiento.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/2.6 Práctica de div y posicionamiento/ies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/2.6 Práctica de div y posicionamiento/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/2.6 Práctica de div y posicionamiento/tarea2.6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/calendario.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/erasmus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/fp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/ies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/murcia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/school.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/img/ue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/calendario/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/horario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/Tarea 2.7 Práctica javascript/estilo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/Tarea 2.7 Práctica javascript/practica_javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/Tarea 2.7 Práctica javascript/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej1/prueba.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej3/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej3/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/ej4/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/js/function potencia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/recetario.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/recetario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Lenguajes de marcas/Practicas/recetario.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.1.1. NumeroMayor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.2.1. Arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.3.1. ArraysPares" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.3.1. datoEntero" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.4.1.parImpar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/2.5.1. calculadora" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/Examen pseint/sumaproducto.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/EJERCICIOS 1/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/HolaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/Mayor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/Mayor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/NumPar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/NumPar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/identif.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/identif.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Pruebas/scanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Taller Java/Ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Taller Java/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/JAVA/Taller Java/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/Taller PSeInt 1.1.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/Taller Pseint 1.2.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/Taller Pseint 1.3.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/arrayinverso.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/arrays.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/digitos.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/factoriales.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/fibonacci.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/multiplicar.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/ejercicios_psint/tablas2.psc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.1 ES básica en Python/ej.9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/ej9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/taller1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.2 Ejercicios de condicionales en Python/taller2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej2.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej2.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.3 Ejercicios de estructuras de control en Python/ej9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/ej8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/iva.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/T2.4 Funciones/mmc-mcd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller/aa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller/taller1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller/taller2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller2/taller1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller2/taller2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller2/taller3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/Taller2/taller4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/PMS-C2e1Prog/ej1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/PMS-C2e1Prog/ej2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/PMS-C2e1Prog/ej2_solucion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/PMS-C2e1Prog/ej3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/PMS-C2e1Prog/ej4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/examen/estudio/9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/modulos/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../1ºDAM/Programacion/python/modulos/mates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assassin's Creed Origins.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Counter-Strike 2.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Darkwood.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Discord.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Discord.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FIFA23 - Acceso directo.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Genshin Impact.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Genshin Impact.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Git-2.47.1-64-bit.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Matricula/completa.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Matricula/identificacion.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Scan - copia.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Scan - copia.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Wuthering Waves.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../dam1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppCalculadoraConstraint.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/appcalculadoraconstraint/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/appcalculadoraconstraint/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/androidTest/java/com/example/calculadoraconstraint/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/java/com/example/calculadoraconstraint/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/app/src/test/java/com/example/calculadoraconstraint/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculadoraConstraint/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/ER0000.sl2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/ER_TGA.CT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/hde/hde64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/hde/table64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/params.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/aligned_alloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/bsearch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/celua.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/code_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/dl_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/fd4_singleton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/hashmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/hashmap2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/mem_diff_stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/mem_region.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/param_containers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/param_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/paramdefs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/params.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/pattern.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/rtti.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/safe_ptr_read.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/include/tga/win_extra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/resources/param_fields.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../saves elden/Elden-Ring-CT-TGA-master/steam_appid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../spotify.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="34hmMCESzmPKoa8EQhYvqFTN5Nx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/pedri/Desktop/dam2/Android/T2/AppCalculadoraConstraint"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6bb751d-aabb-4dba-8118-baf52319f481" name="Changes" comment="" />
+      <created>1761674127273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761674127273</updated>
+    </task>
+    <servers />
+  </component>
+</project>
