@@ -1,0 +1,10 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\bin\Debug\CalculadoraWindows.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\bin\Debug\CalculadoraWindows.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\bin\Debug\CalculadoraWindows.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCalculadoraWindows\CalculadoraWindows\CalculadoraWindows\obj\Debug\CalculadoraWindows.pdb
