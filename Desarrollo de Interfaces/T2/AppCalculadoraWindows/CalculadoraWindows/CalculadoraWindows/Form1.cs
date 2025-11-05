@@ -24,16 +24,18 @@ namespace CalculadoraWindows
         public Form1()
         {
             InitializeComponent();
-
+            this.KeyPreview = true;
+            this.KeyDown += new KeyEventHandler(Form1_KeyDown);
             txtDisplay.Text = "0";
             separador = CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
             ButtonsEnable();
-
+            
         }
 
 
         private void ButtonsEnable()
         {
+
             //Numeros
             foreach (var b in this.Controls.Find("tlpTeclado", true).FirstOrDefault()?.Controls.OfType<Button>() ?? this.Controls.OfType<Button>())
             {
@@ -68,12 +70,12 @@ namespace CalculadoraWindows
 
             if (opPendiente == null)
             {
-                // Primera vez: solo guardamos el acumulado
+                // Primera vez solo guardamos el acumulado
                 acumulado = actual;
             }
             else
             {
-                // Ya había operación pendiente -> calculamos al vuelo y anotamos
+                // Ya había operación pendiente calcula y anota
                 acumuladoAnterior = acumulado;
                 string op = opPendiente;
                 double b = actual;
@@ -81,7 +83,7 @@ namespace CalculadoraWindows
                 acumulado = Aplicar(acumuladoAnterior, b, op);
                 txtDisplay.Text = acumulado.ToString();
 
-                // Historial: "a op b = resultado"
+                // Historial
                 AnotarHistorial(acumuladoAnterior, op, b, acumulado);
             }
 
@@ -189,19 +191,19 @@ namespace CalculadoraWindows
                 acumulado = Aplicar(acumuladoAnterior, b, op);
                 txtDisplay.Text = acumulado.ToString();
 
-                // Guardar para repetir "="
+                // Guardar para repetir
                 ultimaOperacion = opPendiente;
                 ultimoOperando = b;
 
                 opPendiente = null;
                 entradaNueva = true;
 
-                // Historial correcto
+                // Historial
                 AnotarHistorial(acumuladoAnterior, op, b, acumulado);
             }
             else if (ultimaOperacion != null)
             {
-                // Repetición de la última operación: resultado (op) últimoOperando
+                // Repetición de la última operación
                 acumuladoAnterior = acumulado;
                 string op = ultimaOperacion;
                 double b = ultimoOperando;
@@ -215,6 +217,66 @@ namespace CalculadoraWindows
             }
         }
 
+        private void btnCE_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Solo permitir agregar el número una vez por pulsación de tecla
+            if (e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9 || e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9)
+            {
+                // Si no estamos ingresando un número repetido, lo agregamos
+                if (!entradaNueva)
+                {
+                    // Evitar que se añadan números repetidos en una sola pulsación
+                    var btn = this.Controls.Find($"btn{e.KeyCode - (e.KeyCode <= Keys.D9 ? Keys.D0 : Keys.NumPad0)}", true).FirstOrDefault() as Button;
+                    btn?.PerformClick();  // Simula el clic en el botón correspondiente
+                    entradaNueva = true;  // Indicamos que estamos agregando un número
+                }
+            }
+
+
+            else if (e.KeyCode == Keys.Add || e.KeyCode == Keys.Oemplus) 
+                btnSum.PerformClick();
+            else if (e.KeyCode == Keys.Subtract || e.KeyCode == Keys.OemMinus)
+                btnRest.PerformClick();
+            else if ((e.KeyCode == Keys.Multiply || e.KeyCode == Keys.Oemplus) && e.Shift)
+                btnMulti.PerformClick();
+            else if (Control.ModifierKeys == Keys.Shift)
+            {
+                if (e.KeyCode == Keys.D7)
+                {
+                    btnDiv.PerformClick();
+                }
+            }                
+
+            else if (e.KeyCode == Keys.Enter)
+                btnIgual.PerformClick();
+
+            else if (e.KeyCode == Keys.Oemcomma)
+                btnComa.PerformClick();
+
+            else if (e.KeyCode == Keys.Back)
+                btnCE.PerformClick();
+
+            else if (e.KeyCode == Keys.OemMinus)
+                btnMasMenos.PerformClick();
+
+        }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9 || e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9)
+            {
+                entradaNueva = false;  
+            }
+        }
     }
 }
