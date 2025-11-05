@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_titulo</item>
+    </style>
+
+
+    <!-- Estilo de los botones  -->
+    <style name="boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/ancho_min_boton</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/alto_min_boton</item>
+        <item name="android:layout_margin">@dimen/margen_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <!-- Los botones deben estar a la escucha del evento de pulsación para hacer algo -->
+        <!--  <item name="android:onClick">aJugar</item>  este es el nombre que tendrá la función que arrancará el juego -->
+    </style>
+
+
+    <!-- Estilo de los botones  de radio, que son los botones que indican la dificultad -->
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_radio</item>
+        <item name="android:alpha">0.8</item> <!-- transparencia, opacidad con la que se muestra el elemento -->
+        <!-- 0=opaco  // 1=transparente -->
+    </style>
+
+
+    <!-- Estilo para las casillas del tablero -->
+    <style name="casilla">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <!-- le decimos dónde se encuentra la imagen de la casilla (la blanca, que es la elegida por defecto -->
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:layout_margin">1dp</item>
+        <!-- también hay que poner las casillas a la escucha del evento onclic, porque cuando se pulse en ellas, debe hacer algo -->
+        <!--  <item name="android:onClick">toque</item>  este es el nombre que tendrá la función que se desencadena al pulsar en la casilla -->
+    </style>
+
+
+</resources>
+

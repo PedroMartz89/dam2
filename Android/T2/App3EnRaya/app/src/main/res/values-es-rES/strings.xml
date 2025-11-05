@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App3EnRaya</string>
+    <string name="title">3 en Raya</string>
+    <string name="player1">1 Jugador</string>
+    <string name="_2_players">2 Jugadores</string>
+    <string name="easy">Fácil</string>
+    <string name="normal">Normal</string>
+    <string name="imposible">Imposible</string>
+</resources>
