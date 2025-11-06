@@ -6,4 +6,8 @@
     <string name="easy">Fácil</string>
     <string name="normal">Normal</string>
     <string name="imposible">Imposible</string>
+    <string name="hecho_por">Hecho por Pedro Martínez Sánchez</string>
+    <string name="_1_dam">1ºDAM</string>
+    <string name="info">Info</string>
+    <string name="exit">Salir</string>
 </resources>

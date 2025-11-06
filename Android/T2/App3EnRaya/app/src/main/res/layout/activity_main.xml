@@ -10,19 +10,20 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="20dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="20dp">
 
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="0dp"
-            android:paddingLeft="50dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="50dp">
 
             <Space
                 android:layout_width="match_parent"
@@ -100,61 +101,68 @@
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:layout_weight="3"
             android:paddingStart="70dp"
             app:columnCount="3"
             app:rowCount="3">
 
             <ImageView
                 android:id="@+id/a1"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
 
             <ImageView
                 android:id="@+id/a2"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
 
             <ImageView
                 android:id="@+id/a3"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
 
             <ImageView
                 android:id="@+id/b1"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
 
             <ImageView
                 android:id="@+id/b2"
-                android:src="@drawable/circulo"
-                style="@style/casilla"/>
+                style="@style/casilla"
+                android:src="@drawable/circulo" />
 
 
             <ImageView
                 android:id="@+id/b3"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
 
             <ImageView
                 android:id="@+id/c1"
-                android:src="@drawable/aspa"
-                style="@style/casilla"/>
+                style="@style/casilla"
+                android:src="@drawable/aspa" />
 
 
             <ImageView
                 android:id="@+id/c2"
-                android:src="@drawable/circulo"
-                style="@style/casilla"/>
+                style="@style/casilla"
+                android:src="@drawable/circulo" />
 
 
             <ImageView
                 android:id="@+id/c3"
-                style="@style/casilla"/>
+                style="@style/casilla" />
 
         </androidx.gridlayout.widget.GridLayout>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/info" />
 
     </LinearLayout>
 

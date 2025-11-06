@@ -3,6 +3,7 @@
     <style name="titulo">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/texto_titulo</item>
     </style>
 
@@ -24,6 +25,7 @@
     <style name="radio">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:textSize">@dimen/texto_radio</item>
         <item name="android:alpha">0.8</item> <!-- transparencia, opacidad con la que se muestra el elemento -->
         <!-- 0=opaco  // 1=transparente -->
