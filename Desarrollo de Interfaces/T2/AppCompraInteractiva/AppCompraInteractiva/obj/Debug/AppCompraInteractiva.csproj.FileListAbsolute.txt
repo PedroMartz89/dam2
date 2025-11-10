@@ -1,0 +1,10 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\bin\Debug\AppCompraInteractiva.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\bin\Debug\AppCompraInteractiva.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\bin\Debug\AppCompraInteractiva.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T2\AppCompraInteractiva\AppCompraInteractiva\obj\Debug\AppCompraInteractiva.pdb
