@@ -1,0 +1,3 @@
+12 03 ipconfig /a
+13 03 ipconfig
+15 59 cat /var/log/auth.log

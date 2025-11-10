@@ -6,12 +6,13 @@ public class Main {
 
         Ejecutor gestorTareas = new Ejecutor();
         Scanner sc = new Scanner(System.in);
-        gestorTareas.leerConfig("psptab.txt");
+        gestorTareas.leerConfig("src/psptab.txt");
+        menu(sc, gestorTareas);
 
 
     }
 
-    public void menu(Scanner sc, Ejecutor gestorTareas) {
+    public static void menu(Scanner sc, Ejecutor gestorTareas) {
 
         while (true) {
             System.out.println("Por favor, indica lo que quieres hacer: tareas, finalizar xx o salir.");
@@ -23,25 +24,32 @@ public class Main {
 
                 switch (opcion) {
 
-                    case "tareas" : {gestorTareas.listarTareas(); break;}
+                    case "tareas" : {
+                        gestorTareas.listarTareas();
+                        System.out.println("Pulsa enter para continuar...");
+                        sc.nextLine();
+                        break;
+                    }
                     case "finalizar": {
 
                         System.out.println("Introduce el ID: ");
-                        sc.nextLine();
                         int id = sc.nextInt();
 
                         gestorTareas.cancelarTarea(id);
                         break;
                     }
-                    case "salir": break;
+                    case "salir": {
+
+                        System.out.println("Finalizando el programa...");
+                        System.exit(0);
+                    }
+
                 }
-                break;
+
+                ;
             }
 
         }
-
-
-
 
     }
 }

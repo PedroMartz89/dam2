@@ -16,8 +16,8 @@ public class Ejecutor {
             String linea;
             int id = 0;
             while ((linea = bufferedReader.readLine()) != null) {
-
-                String[] partes = linea.split(" ");
+                linea = linea.trim();
+                String[] partes = linea.split("\\s+", 3); //El regex separa por espacios
                 if (partes.length < 3 ) {
                     continue;
                 }
@@ -25,9 +25,19 @@ public class Ejecutor {
                 try {
                     int hora = Integer.parseInt(partes[0]);
                     int minutos = Integer.parseInt(partes[1]);
-                    String comando = partes[2];
+
+                    String resto = partes[2];
+                    String comando;
+                    String parametros = "";
+                    String[] partesComando = resto.split("\\s", 2);
+                    comando = partesComando[0];
+                    if (partesComando.length > 1)
+                        parametros = partesComando[1];
+
                     id++;
-                    Tarea task1 = new Tarea(id, hora, minutos, comando, "Pendiente");
+                    //Si el comando tiene parámetros, lo concatenamos a comando, si no solo se ejecuta el comando
+                    Tarea task1 = new Tarea(id, hora, minutos, parametros.isEmpty()? comando : (comando + " " + parametros),
+                            "Pendiente");
                     tareas.add(task1);
                     new Thread(task1).start();
 
@@ -54,6 +64,7 @@ public class Ejecutor {
 
             if (tarea.getId() == id && !(tarea.getEstado().equals("Cancelado"))) {
                 tarea.setEstado("Cancelado");
+                System.out.println("Se ha cancelado la tarea.");
             } else {
 
                 if (tarea.getEstado().equals("Cancelado")) {
