@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">appPasarDatosActivities</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="restar">Restar</string>
+    <string name="sumar">Sumar</string>
+    <string name="multi">Multi</string>
+    <string name="dividir">Dividir</string>
+    <string name="atras">Atrás</string>
+</resources>

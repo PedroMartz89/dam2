@@ -3,48 +3,51 @@ import java.util.List;
 
 public class Cesto {
 
-    private List<Character> cesto = new ArrayList<>();
+    private int numManzanasActual;
     public static int capacidad = 20;
 
-    public synchronized void anadirManzana() {
-        try {
-            while (cesto.size() >= capacidad) {
-                wait();
-            }
-            cesto.add('ó');
-            System.out.println("Se ha añadido una manzana.");
-            notifyAll();
+    public synchronized int anadirManzana(int numManzanas) {
+        int numManzanasPuedenPoner = capacidad - numManzanasActual;
 
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-    }
+            while (numManzanasActual == 20) {
+                try {
+                    wait();
 
-    public synchronized void consumirManzana() {
-        int cantidad = (int) (Math.random() * 5) + 1;
-        try {
-            while (cesto.isEmpty()) {
-                wait();
-            }
-
-            for (int i = 0; i < cantidad; i++) {
-                if (!cesto.isEmpty()) {
-                    cesto.remove(0);
-                    System.out.println("Manzana consumida.");
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
                 }
             }
-            notifyAll();
 
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
+            int numManzanasPuestas = Math.min(numManzanas, numManzanasPuedenPoner);
+        System.out.println(numManzanasActual);
+            numManzanasActual += numManzanasPuestas;
+
+            notifyAll();
+            return numManzanasPuestas;
+
+    }
+
+    public synchronized int consumirManzana(int manzanas) {
+        if (numManzanasActual <= 0) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
+
+        int numCogidasReal = Math.min(manzanas, numManzanasActual);
+        numManzanasActual += numCogidasReal;
+        System.out.println("notifico");
+        notifyAll();
+        return numCogidasReal;
     }
 
     public synchronized boolean hayManzanas() {
-        return !cesto.isEmpty();
+        return numManzanasActual > 0;
     }
 
-    public synchronized boolean cestoLleno() {
-        return cesto.size() >= capacidad;
+    public int getNumManzanasActual() {
+        return numManzanasActual;
     }
 }

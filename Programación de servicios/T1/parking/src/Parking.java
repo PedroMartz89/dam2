@@ -18,8 +18,6 @@ public class Parking {
             long tiempoEntra = System.currentTimeMillis();
             System.out.println("El coche " + idCoche + " ha entrado al parking.");
             checkParking();
-            int parkingTime = (int) (Math.random() * 451) + 50;
-            Thread.sleep(parkingTime);
             long tiempoSale = System.currentTimeMillis();
             System.out.println("El coche " + idCoche + " ha salido del parking.");
             long tiempoEnParking = tiempoSale - tiempoEntra;

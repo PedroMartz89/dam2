@@ -13,18 +13,18 @@ public class Chiquillo implements Runnable {
     @Override
     public void run() {
         try {
-            while (cesto.hayManzanas()) {
-                cesto.consumirManzana();
-                manzanasConsumidas++;
-                Thread.sleep(500);
+        while (cesto.hayManzanas()) {
+            System.out.println("consumo manzana");
+            int totalManzanas = (int) (Math.random() * 5) + 1;
+            manzanasConsumidas += cesto.consumirManzana(totalManzanas);
+            if (Thread.interrupted()) {
+                break;
             }
-
             System.out.println("El chiquillo " + idChiquillo + " ha consumido " + manzanasConsumidas + " manzanas.");
+        }
 
         } catch (RuntimeException e) {
             Thread.currentThread().interrupt();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
     }
 

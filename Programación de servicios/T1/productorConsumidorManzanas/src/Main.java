@@ -13,32 +13,22 @@ public class Main {
             chiquilloHilos[i] = new Thread(chiquillos[i]);
         }
 
-
         Thread jardineroHilo = new Thread(jardinero);
 
         try {
+
             jardineroHilo.start();
-            jardineroHilo.join();
+
             for (Thread hiloChiquillo : chiquilloHilos) {
                 hiloChiquillo.start();
+
             }
 
-
-
-            for (Thread hiloChiquillo : chiquilloHilos) {
-                hiloChiquillo.join();
-            }
-
-            int totalConsumidas = 0;
-            for (Chiquillo chiquillo : chiquillos) {
-                totalConsumidas += chiquillo.getManzanasConsumidas();
-            }
-
-            System.out.println("Los chiquillos han consumido " + totalConsumidas + " manzanas.");
-
-        } catch (RuntimeException | InterruptedException e) {
+        } catch (RuntimeException e) {
             e.printStackTrace();
         }
-        System.out.println("Simulación terminada.");
+
+
     }
+
 }

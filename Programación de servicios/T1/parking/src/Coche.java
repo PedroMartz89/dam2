@@ -14,6 +14,9 @@ public class Coche implements Runnable {
             int tiempoEspera = (int) (Math.random() * 101);
             Thread.sleep(tiempoEspera);
             parking.entrarCoche(idCoche);
+
+            int parkingTime = (int) (Math.random() * 451) + 50;
+            Thread.sleep(parkingTime);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
