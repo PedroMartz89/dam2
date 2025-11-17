@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t3\\wordapp\\wordapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|solutionrelative:wordapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WordApp||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t3\\wordapp\\wordapp\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|solutionrelative:wordapp\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t3\\wordapp\\wordapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|solutionrelative:wordapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t3\\wordapp\\wordapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{D555E029-5D91-459F-BCA4-A4FBB39EE25C}|WordApp\\WordApp.csproj|solutionrelative:wordapp\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WordApp",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\WordApp.csproj",
+              "RelativeDocumentMoniker": "WordApp\\WordApp.csproj",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\WordApp.csproj",
+              "RelativeToolTip": "WordApp\\WordApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-17T12:53:51.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WordApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WordApp\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:45:26.344Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Documento.cs",
+              "RelativeDocumentMoniker": "WordApp\\Documento.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Documento.cs",
+              "RelativeToolTip": "WordApp\\Documento.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:57:52.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Form1.cs",
+              "RelativeDocumentMoniker": "WordApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T3\\WordApp\\WordApp\\Form1.cs",
+              "RelativeToolTip": "WordApp\\Form1.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAASwAABAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:20:51.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

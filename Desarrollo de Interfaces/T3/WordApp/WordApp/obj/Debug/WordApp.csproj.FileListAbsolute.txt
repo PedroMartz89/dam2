@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\bin\Debug\WordApp.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\bin\Debug\WordApp.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\bin\Debug\WordApp.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\WordApp\WordApp\obj\Debug\WordApp.Documento.resources
