@@ -1,4 +1,4 @@
-package com.pberna.aad.ut3.baloncesto.data;
+package data;
 
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;

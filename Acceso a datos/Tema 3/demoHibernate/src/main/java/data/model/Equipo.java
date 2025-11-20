@@ -1,4 +1,4 @@
-package com.pberna.aad.ut3.baloncesto.data.model;
+package data.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
