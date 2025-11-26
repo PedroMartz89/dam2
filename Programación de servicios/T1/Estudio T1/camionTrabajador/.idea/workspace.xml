@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0dd288c-a049-4122-b459-59f1aa8a20c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/Ej2931.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/src/Cinta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/src/Consumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ej2931/src/Productor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/Restaurante.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Comensal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/ResponsableSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Restaurante/src/Restaurante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/camionProductos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/src/Camion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/src/Conductor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../camionProductos/src/Reponedor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/cestoManzanas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/src/CestoManzanas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/src/Chiquillos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/src/Jardinero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cestoManzanas/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/parking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/src/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parking/src/Parking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/salida.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/simulacroExamen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/src/ej1/ej1Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/src/ej2/Misil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulacroExamen/src/ej2/Norad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/simuladorCasino.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/src/Banca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/src/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/src/Ruleta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simuladorCasino/src/enunciado" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/MultiHola.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MultiHola/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/com.pberna.psp.ut2.solucion.manzanas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/MainPipes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/MainWaitNotify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/pipes/CestoManzanasPipes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/pipes/ChiquilloPipes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/pipes/JardineroPipes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/waitnotify/CestoManzanas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/waitnotify/Chiquillo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/com/pberna/psp/ut2/solucion/manzanas/waitnotify/Jardinero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/MainPipes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/MainWaitNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/pipes/CestoManzanasPipes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/pipes/ChiquilloPipes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/pipes/JardineroPipes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/waitnotify/CestoManzanas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/waitnotify/Chiquillo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/com/pberna/psp/ut2/solucion/manzanas/waitnotify/Jardinero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.solucion.manzanas/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/com/pberna/psp/ut2/soluciones/restaurante/Caja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/com/pberna/psp/ut2/soluciones/restaurante/Comensal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/com/pberna/psp/ut2/soluciones/restaurante/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/com/pberna/psp/ut2/soluciones/restaurante/ResponsableSala.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/com/pberna/psp/ut2/soluciones/restaurante/Restaurante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/com/pberna/psp/ut2/soluciones/restaurante/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/com/pberna/psp/ut2/soluciones/restaurante/Comensal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/com/pberna/psp/ut2/soluciones/restaurante/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/com/pberna/psp/ut2/soluciones/restaurante/ResponsableSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/com/pberna/psp/ut2/soluciones/restaurante/Restaurante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2.soluciones.restaurante/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/countdownlatch/TestCountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/countdownlatch/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/cyclicbarrier/BarrierAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/cyclicbarrier/CyclicBarrierRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/cyclicbarrier/TestCyclicBarrier$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/cyclicbarrier/TestCyclicBarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/interrupt/HiloEsperaIndefinidamente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/interrupt/HiloEsperaYMuestraMensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/join/EjemploSumadorNumeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/join/HiloSumadorNumeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lanzarhilos/HelloRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lanzarhilos/HelloThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lanzarhilos/HiloMuestraNumeroAleatorio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/Contador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/ContadorMultipleLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/ContadorMultipleSynchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/HiloManipulaContador1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/HiloManipulaContador2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/lock/MainEjemploLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/Contador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/ContadorSinchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/ContadorSynchronizedBloque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/EjemploMemoriaCompartida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/HiloDecrementaContador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/memoriacompartida/HiloIncrementaContador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/nameThread/HiloDiceSuNombre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/priorityThread/HiloDiceSuNombreConPrioridad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidor/Buffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidor/Consumidor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidor/Productor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidor/TestProductorConsumidor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidorpipes/ConsumidorPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidorpipes/ProductorPipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidorpipes/TestProductorConsumidorPipeMultiple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/productorconsumidorpipes/TestProductorConsumidorPipes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/semaphore/HiloDeCpu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/semaphore/Ordenador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/com/pberna/psp/ut2/semaphore/TestSemaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/countdownlatch/TestCountDownLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/countdownlatch/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/cyclicbarrier/BarrierAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/cyclicbarrier/CyclicBarrierRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/cyclicbarrier/TestCyclicBarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/interrupt/HiloEsperaIndefinidamente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/interrupt/HiloEsperaYMuestraMensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/join/EjemploSumadorNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/join/HiloSumadorNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lanzarhilos/HelloRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lanzarhilos/HelloThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lanzarhilos/HiloMuestraNumeroAleatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/Contador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/ContadorMultipleLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/ContadorMultipleSynchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/HiloManipulaContador1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/HiloManipulaContador2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/lock/MainEjemploLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/Contador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/ContadorSinchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/ContadorSynchronizedBloque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/EjemploMemoriaCompartida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/HiloDecrementaContador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/memoriacompartida/HiloIncrementaContador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/nameThread/HiloDiceSuNombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/priorityThread/HiloDiceSuNombreConPrioridad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidor/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidor/Consumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidor/Productor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidor/TestProductorConsumidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidorpipes/ConsumidorPipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidorpipes/ProductorPipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidorpipes/TestProductorConsumidorPipeMultiple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/productorconsumidorpipes/TestProductorConsumidorPipes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/semaphore/HiloDeCpu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/semaphore/Ordenador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/com/pberna/psp/ut2/semaphore/TestSemaphore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.psp.ut2/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/com.pberna.ut2.solucion.parking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/bin/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/bin/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/bin/Parking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/src/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/src/Parking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/com.pberna.ut2.solucion.parking/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/correcionParking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/src/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/correcionParking/src/Parking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/solucionProfesor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/src/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/src/Comensal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/src/ResponsableSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionProfesor/src/Restaurante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Soluciones Profesor/solucionSimulacro1/solucionSimulacro1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/bin/com/pberna/ut2/solucion/parking/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/bin/com/pberna/ut2/solucion/parking/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/bin/com/pberna/ut2/solucion/parking/Parking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/src/com/pberna/ut2/solucion/parking/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/src/com/pberna/ut2/solucion/parking/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/src/com/pberna/ut2/solucion/parking/Parking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../com.pberna.ut2.solucion.parking/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/crearProcesos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../crearProcesos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/interprete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/src/Proceso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../interprete/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/joinInterrupt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/src/Hilo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../joinInterrupt/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/parking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/src/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../parking/src/Parking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/procesosSalidaEstandar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../procesosSalidaEstandar/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/productorConsumidorManzanas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/src/Cesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/src/Chiquillo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/src/Jardinero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../productorConsumidorManzanas/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/restaurante.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/src/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/src/Comensal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../restaurante/src/ResponsableSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/salida.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/simulacroExamen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/src/ej1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/src/ej2/Misil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simulacroExamen/src/ej2/Norad.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="35vr7pP9Xxy1gxxkTEffgGIhSb0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0dd288c-a049-4122-b459-59f1aa8a20c3" name="Changes" comment="" />
+      <created>1764001222914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764001222914</updated>
+      <workItem from="1764001224258" duration="8378000" />
+      <workItem from="1764145714310" duration="948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="botonI">Incrementar</string>
+    <string name="botonD">Decrementar</string>
+    <string name="botonR">Resetear</string>
+    <string name="esto_es_una_prueba">ESTO ES UNA PRUEBA</string>
+    <string name="configuracion">Configuracón</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="contador">Contador</string>
+    <string name="salir">Salir</string>
+</resources>
