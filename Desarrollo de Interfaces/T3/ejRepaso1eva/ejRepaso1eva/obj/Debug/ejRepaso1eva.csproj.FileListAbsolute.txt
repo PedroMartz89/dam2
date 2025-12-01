@@ -1,0 +1,14 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\bin\Debug\ejRepaso1eva.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\bin\Debug\ejRepaso1eva.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\bin\Debug\ejRepaso1eva.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Consulta.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Altas.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Ingreso.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Reintegro.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T3\ejRepaso1eva\ejRepaso1eva\obj\Debug\ejRepaso1eva.Transferencia.resources
