@@ -1,4 +1,4 @@
-package ejFicheros.model;
+package ejJDBCdao.model;
 
 public class Editorial {
 

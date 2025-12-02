@@ -1,15 +1,17 @@
-package ejFicheros.model;
+package ejJDBCdao.model;
 
 import java.sql.Date;
 
 public class Escritor {
     private int cod_escritor;
     private String nombre_escritor;
+    private String pais_escritor;
     private Date fecha_nacimiento;
 
-    public Escritor(int cod_escritor, String nombre_escritor, Date fecha_nacimiento) {
+    public Escritor(int cod_escritor, String nombre_escritor, String paisEscritor, Date fecha_nacimiento) {
         this.cod_escritor = cod_escritor;
         this.nombre_escritor = nombre_escritor;
+        pais_escritor = paisEscritor;
         this.fecha_nacimiento = fecha_nacimiento;
     }
 
@@ -18,6 +20,7 @@ public class Escritor {
         return "Escritor{" +
                 "cod_escritor=" + cod_escritor +
                 ", nombre_escritor='" + nombre_escritor + '\'' +
+                ", pais_escritor='" + pais_escritor + '\'' +
                 ", fecha_nacimiento=" + fecha_nacimiento +
                 '}';
     }
@@ -44,5 +47,13 @@ public class Escritor {
 
     public void setFecha_nacimiento(Date fecha_nacimiento) {
         this.fecha_nacimiento = fecha_nacimiento;
+    }
+
+    public String getPais_escritor() {
+        return pais_escritor;
+    }
+
+    public void setPais_escritor(String pais_escritor) {
+        this.pais_escritor = pais_escritor;
     }
 }

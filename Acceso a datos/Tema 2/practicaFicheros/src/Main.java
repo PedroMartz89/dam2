@@ -13,7 +13,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         dirPersonal = Paths.get(System.getProperty("user.home"));
-        dirActual = dirPersonal .resolve("Desktop");
+        dirActual = dirPersonal.resolve("Desktop");
         menu(sc);
     }
 

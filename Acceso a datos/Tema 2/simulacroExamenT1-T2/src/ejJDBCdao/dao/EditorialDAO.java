@@ -1,4 +1,4 @@
-package ejFicheros.dao;
+package ejJDBCdao.dao;
 
 public interface EditorialDAO {
 

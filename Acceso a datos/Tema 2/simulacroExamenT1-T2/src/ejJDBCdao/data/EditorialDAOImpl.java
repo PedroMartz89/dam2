@@ -1,4 +1,6 @@
-package ejFicheros.dao;
+package ejJDBCdao.data;
+
+import ejJDBCdao.dao.EditorialDAO;
 
 public class EditorialDAOImpl implements EditorialDAO {
 
