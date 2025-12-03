@@ -1,0 +1,11 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\bin\Debug\ficherosTexto.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\bin\Debug\ficherosTexto.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\bin\Debug\ficherosTexto.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.Altas.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\ficherosTexto\ficherosTexto\obj\Debug\ficherosTexto.pdb

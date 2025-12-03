@@ -1,0 +1,14 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\bin\Debug\practicaFicheros.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\bin\Debug\practicaFicheros.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\bin\Debug\practicaFicheros.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.Altas.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.FormBuscarTelfNombrecs.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.FormBuscarInicial.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\estudio\practicaFicheros\practicaFicheros\obj\Debug\practicaFicheros.FormEliminar.resources

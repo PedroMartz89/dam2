@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\estudio\\ficherostexto\\ficherostexto\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|solutionrelative:ficherostexto\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\estudio\\ficherostexto\\ficherostexto\\altas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|solutionrelative:ficherostexto\\altas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\estudio\\ficherostexto\\ficherostexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|solutionrelative:ficherostexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\estudio\\ficherostexto\\ficherostexto\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|solutionrelative:ficherostexto\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\estudio\\ficherostexto\\ficherostexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09AB6010-9D14-4074-9456-D86D7BD6765B}|ficherosTexto\\ficherosTexto.csproj|solutionrelative:ficherostexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Contacto.cs",
+              "RelativeDocumentMoniker": "ficherosTexto\\Contacto.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Contacto.cs",
+              "RelativeToolTip": "ficherosTexto\\Contacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:16:04.587Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ficherosTexto\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.Designer.cs",
+              "RelativeToolTip": "ficherosTexto\\Form1.Designer.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAvwJ8AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:52:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Altas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Altas.cs",
+              "RelativeDocumentMoniker": "ficherosTexto\\Altas.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Altas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ficherosTexto\\Altas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:51:03.077Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.cs",
+              "RelativeDocumentMoniker": "ficherosTexto\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.cs",
+              "RelativeToolTip": "ficherosTexto\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAD4vw4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:25:49.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.cs",
+              "RelativeDocumentMoniker": "ficherosTexto\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\estudio\\ficherosTexto\\ficherosTexto\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ficherosTexto\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:15:22.263Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
