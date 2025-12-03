@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">appIntentsImplicitas</string>
+    <string name="abrir_web">Abrir web</string>
+    <string name="abrir_telefono">Abrir teléfono</string>
+    <string name="enviar_email">Enviar email</string>
+    <string name="url">URL</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+</resources>
