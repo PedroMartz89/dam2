@@ -130,12 +130,14 @@
             this.leerAgendaPorInicialToolStripMenuItem.Name = "leerAgendaPorInicialToolStripMenuItem";
             this.leerAgendaPorInicialToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.leerAgendaPorInicialToolStripMenuItem.Text = "Leer agenda por inicial";
+            this.leerAgendaPorInicialToolStripMenuItem.Click += new System.EventHandler(this.leerAgendaPorInicialToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // Agenda
             // 
@@ -144,7 +146,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Agenda";
-            this.Text = "Form1";
+            this.Text = "Agenda de Contactos";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

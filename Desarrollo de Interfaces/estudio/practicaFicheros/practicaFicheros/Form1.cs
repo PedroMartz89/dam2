@@ -73,5 +73,23 @@ namespace practicaFicheros
             FormEliminar formEliminar = new FormEliminar();
             formEliminar.Show();
         }
+
+        private void leerAgendaPorInicialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           string[] cadenas = File.ReadAllLines("AgendaPorInicial.txt");
+
+             string texto = "";
+            foreach (string cadena in cadenas) { 
+            
+                texto += cadena;
+            }
+
+            MessageBox.Show(texto);
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
