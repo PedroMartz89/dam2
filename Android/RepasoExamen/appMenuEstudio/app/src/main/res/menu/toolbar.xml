@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@android:drawable/ic_dialog_info"
+        android:id="@+id/prueba"
+        android:title="@string/pruebaMenu"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/acercaDe"
+        android:title="@string/acerca_de"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="atras"
+        android:icon="@drawable/baseline_undo_24"
+        android:title="@string/atras"
+        app:showAsAction="ifRoom"/>
+</menu>

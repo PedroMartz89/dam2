@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">appStudyMenu</string>
+    <string name="prueba">English language test</string>
+    <string name="pruebaMenu">Test</string>
+    <string name="acerca_de">Made by</string>
+    <string name="actividad_prueba">Test Activity</string>
+    <string name="hecho_por">Made by Pedro 2ºDAM</string>
+    <string name="atras">Back</string>
+</resources>

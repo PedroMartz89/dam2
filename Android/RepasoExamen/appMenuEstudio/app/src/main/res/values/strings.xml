@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">appMenuEstudio</string>
+    <string name="prueba">Prueba de idioma español</string>
+    <string name="pruebaMenu">Prueba</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="actividad_prueba">Actividad prueba</string>
+    <string name="hecho_por">Hecho por Pedro 2ºDAM</string>
+    <string name="atras">Atrás</string>
+</resources>

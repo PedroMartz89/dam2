@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">appEstudioExamen</string>
+    <string name="configuracion">Config</string>
+    <string name="acercaDe">About</string>
+    <string name="config">Config</string>
+    <string name="pantalla_de_configuracion">Config screen</string>
+    <string name="pantalla_de_acerca_de">About screen</string>
+    <string name="salir">Exit</string>
+    <string name="atras">Back</string>
+</resources>

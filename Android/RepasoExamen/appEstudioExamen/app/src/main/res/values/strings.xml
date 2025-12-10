@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">appEstudioExamen</string>
+    <string name="configuracion">Configuración</string>
+    <string name="acercaDe">Acerca de\n</string>
+    <string name="config">Configuracion</string>
+    <string name="pantalla_de_configuracion">PANTALLA DE CONFIGURACION</string>
+    <string name="pantalla_de_acerca_de">PANTALLA DE ACERCA DE</string>
+    <string name="salir">Salir</string>
+    <string name="atras">Atras</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Telefono</string>
+    <string name="url">URL</string>
+    <string name="notificar">Notificar</string>
+</resources>
