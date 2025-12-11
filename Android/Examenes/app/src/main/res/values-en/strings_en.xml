@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">appTestT3</string>
+    <string name="Principal">Main</string>
+    <string name="Monumentos">Monuments</string>
+    <string name="Edificios">Edifices</string>
+    <string name="plazas">Streets</string>
+    <string name="contacto">Contact us</string>
+    <string name="ayuda">Help</string>
+    <string name="salir">Exit</string>
+    <string name="edificio_moneo">Moneo Edifice</string>
+    <string name="edificio_hispania">Hispania Edifice</string>
+    <string name="edificio_banco_espana">Spain Bank Edifice</string>
+    <string name="subir">Upload</string>
+    <string name="plaza_belluga">Belluga Street</string>
+    <string name="plaza_de_las_flores">Flowers Street</string>
+    <string name="plaza_circular">Circle Street</string>
+    <string name="llamar_ahora">Call now</string>
+    <string name="enviar_correo">Send email</string>
+    <string name="autor">Author: Pedro Martínez Sánchez 2ºDAM</string>
+    <string name="fecha">Date: 12/11/25</string>
+    <string name="licencia">License: Creative Commons</string>
+    <string name="atras">Back</string>
+    <string name="version">Version: 1.0</string>
+</resources>

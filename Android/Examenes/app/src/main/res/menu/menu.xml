@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_principal"
+        android:title="@string/Principal"/>
+
+    <item android:id="@+id/menu_monumentos"
+        android:title="@string/Monumentos">
+        <menu>
+            <item android:id="@+id/submenu_edificios"
+                android:title="@string/Edificios" />
+            <item android:id="@+id/submenu_plazas"
+                android:title="@string/plazas" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_contacto"
+        android:title="@string/contacto"/>
+
+    <item android:id="@+id/menu_ayuda"
+        android:title="@string/ayuda"/>
+</menu>

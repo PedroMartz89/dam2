@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">appExamenT3</string>
+    <string name="Principal">Principal</string>
+    <string name="Monumentos">Monumentos</string>
+    <string name="Edificios">Edificios</string>
+    <string name="plazas">Plazas</string>
+    <string name="contacto">Contacto</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="edificio_moneo">Edificio Moneo</string>
+    <string name="edificio_hispania">Edificio Hispania</string>
+    <string name="edificio_banco_espana">Edificio Banco España</string>
+    <string name="subir">Subir</string>
+    <string name="plaza_belluga">Plaza Belluga</string>
+    <string name="plaza_de_las_flores">Plaza de las Flores</string>
+    <string name="plaza_circular">Plaza Circular</string>
+    <string name="llamar_ahora">Llamar ahora</string>
+    <string name="enviar_correo">Enviar correo</string>
+    <string name="autor">Autor: Pedro Martínez Sánchez 2ºDAM</string>
+    <string name="fecha">Fecha: 11/12/25</string>
+    <string name="licencia">Licencia: Creative Commons</string>
+    <string name="atras">Atrás</string>
+    <string name="version">Versión: 1.0</string>
+</resources>
