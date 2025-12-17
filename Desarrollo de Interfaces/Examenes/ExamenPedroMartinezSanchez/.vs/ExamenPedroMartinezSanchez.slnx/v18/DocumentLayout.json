@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\examenes\\examenpedromartinezsanchez\\examenpedromartinezsanchez\\formoperacionescajeromartinez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|solutionrelative:examenpedromartinezsanchez\\formoperacionescajeromartinez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\examenpedromartinezsanchez\\formoperacionescajeromartinez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|solutionrelative:examenpedromartinezsanchez\\formoperacionescajeromartinez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\examenpedromartinezsanchez\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|solutionrelative:examenpedromartinezsanchez\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\examenpedromartinezsanchez\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|solutionrelative:examenpedromartinezsanchez\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\examenpedromartinezsanchez\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803E236C-30FA-48FE-862B-D6332F63AE3F}|ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez.csproj|solutionrelative:examenpedromartinezsanchez\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormOperacionesCajeroMartinez.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "RelativeDocumentMoniker": "ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "RelativeToolTip": "ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAuwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:22:42.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormOperacionesCajeroMartinez.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "RelativeDocumentMoniker": "ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs",
+              "ToolTip": "C:\\Users\\Pedro\\source\\repos\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Pedro\\source\\repos\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\FormOperacionesCajeroMartinez.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:03:15.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Form1.cs",
+              "RelativeDocumentMoniker": "ExamenPedroMartinezSanchez\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Form1.cs",
+              "RelativeToolTip": "ExamenPedroMartinezSanchez\\Form1.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAA3wA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:42:33.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Form1.cs",
+              "RelativeDocumentMoniker": "ExamenPedroMartinezSanchez\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pedro\\source\\repos\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Pedro\\source\\repos\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:36:05.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Cliente.cs",
+              "RelativeDocumentMoniker": "ExamenPedroMartinezSanchez\\Cliente.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\Examenes\\ExamenPedroMartinezSanchez\\ExamenPedroMartinezSanchez\\Cliente.cs",
+              "RelativeToolTip": "ExamenPedroMartinezSanchez\\Cliente.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA3wDgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:38:11.165Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

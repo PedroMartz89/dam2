@@ -5,15 +5,14 @@ import ejFicheros.Registro;
 public class Main {
 
 	public static void main(String[] args) {
-		//Para probar ejercicios JDBC
+		//Para probar JDBC
 		Jdbc jdbc = new Jdbc();
 		//jdbc.listarDatosTodasTablas();
 //		jdbc.darLibroDeAlta();
 //		jdbc.eliminarEscritor();
 		jdbc.mostrarLibrosEscritor();
-		//jdbc.mostrarEstadisticasPaginas();
 		
-		//Para probar ejecicios Ficheros
+		//Para probar Ficheros
 //		String rutaFicheroTxt = "src/fichero.txt"; //poner ruta fichero txt
 //		String rutaFicheroBinario = "src/registros.dat"; // poner ruta fichero binario
 //		int identificadorRegistro = 2; //id del registro

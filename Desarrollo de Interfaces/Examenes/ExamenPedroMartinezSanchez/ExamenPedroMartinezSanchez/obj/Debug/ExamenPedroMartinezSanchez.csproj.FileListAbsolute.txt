@@ -1,0 +1,11 @@
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\bin\Debug\ExamenPedroMartinezSanchez.exe.config
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\bin\Debug\ExamenPedroMartinezSanchez.exe
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\bin\Debug\ExamenPedroMartinezSanchez.pdb
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.csproj.AssemblyReference.cache
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.Properties.Resources.resources
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.csproj.GenerateResource.cache
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.exe
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.pdb
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.FormPrincipalMartinez.resources
+C:\Users\Pedro\source\repos\ExamenPedroMartinezSanchez\ExamenPedroMartinezSanchez\obj\Debug\ExamenPedroMartinezSanchez.FormOperacionesCajeroMartinez.resources

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjemploAdaptadores</string>
+    <string name="adaptadores_android">Adaptadores Android</string>
+    <string name="el_elemento_seleccionado_es">El elemento seleccionado es:</string>
+</resources>

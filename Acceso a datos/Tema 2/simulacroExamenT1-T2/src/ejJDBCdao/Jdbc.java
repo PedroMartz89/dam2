@@ -191,9 +191,5 @@ public class Jdbc {
             throw new RuntimeException(e);
         }
 	}
-	
-	//ejercicio5
-	public void mostrarEstadisticasPaginas() {
-		
-	}
+
 }
