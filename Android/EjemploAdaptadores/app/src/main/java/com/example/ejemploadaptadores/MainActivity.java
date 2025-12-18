@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,7 +17,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     String[] urls = {"https://mail.google.com/", "https://notebooklm.google.com/", "https://github.com/", "https://gemini.google.com/", "https://www.youtube.com/", "https://www.google.com/"};
-
+    ListView listaLibros;
+    LibroAdapter libroAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ListView lista = findViewById(R.id.lvLista);
+
+        listaLibros = findViewById(R.id.lvLibros);
+        libroAdapter = new LibroAdapter(this, RepositorioLibros.getInstance().getLeads());
+        listaLibros.setAdapter(libroAdapter);
+
+
         ArrayAdapter<String> my_adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, urls);
         
         lista.setAdapter(my_adapter);
@@ -45,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
 
         });
+
 
     }
 }

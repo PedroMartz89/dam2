@@ -2,6 +2,8 @@ package com.example.ejemploadaptadores;
 
 import androidx.annotation.NonNull;
 
+import java.util.UUID;
+
 public class Libro {
     private String libro_id;
     private String titulo;
@@ -9,8 +11,8 @@ public class Libro {
     private String categoria;
     private int imagen;
 
-    public Libro(String libro_id, String titulo, String autor, String categoria, int imagen) {
-        this.libro_id = libro_id;
+    public Libro(String titulo, String autor, String categoria, int imagen) {
+        libro_id = UUID.randomUUID().toString();
         this.titulo = titulo;
         this.autor = autor;
         this.categoria = categoria;
