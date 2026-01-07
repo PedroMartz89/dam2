@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WalkPath</string>
+    <string name="nueva_ruta">New Path</string>
+    <string name="ver_rutas">Show Paths</string>
+    <string name="ayuda">Help</string>
+    <string name="acerca_de">About Us</string>
+    <string name="salir">Exit</string>
+</resources>
