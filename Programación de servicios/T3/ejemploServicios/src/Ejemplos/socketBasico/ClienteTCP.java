@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class Cliente {
+public class ClienteTCP {
     public static void main(String[] args) {
         try {
             //Conectamos con el servidor en el puerto 8888 usando un socket
@@ -16,8 +16,6 @@ public class Cliente {
             //Creamos un canal para mandar datos
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             out.println("¡Hola desde el cliente!");
-
-
 
             //Cerrar conexion
             socket.close();
