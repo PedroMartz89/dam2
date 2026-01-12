@@ -1,0 +1,10 @@
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\bin\Debug\EjercicioXMLDocument.exe.config
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\bin\Debug\EjercicioXMLDocument.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\bin\Debug\EjercicioXMLDocument.pdb
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.csproj.AssemblyReference.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.Form1.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.Properties.Resources.resources
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.csproj.GenerateResource.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.csproj.CoreCompileInputs.cache
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.exe
+C:\Users\pedri\Desktop\dam2\Desarrollo de Interfaces\T4\EjercicioXMLDocument\EjercicioXMLDocument\obj\Debug\EjercicioXMLDocument.pdb

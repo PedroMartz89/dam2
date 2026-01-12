@@ -1,0 +1,127 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.Linq;
+
+
+namespace EjercicioXML
+{
+    public partial class Form1 : Form
+    {
+        // Ruta del archivo y documento en memoria
+        private string path = "personas.xml";
+        private XDocument doc;
+
+    
+        public Form1()
+        {
+            this.Text = "Gestión de Personas XML";
+            this.Size = new Size(380, 280);
+            ConfigurarInterfaz();
+            CargarDatos();
+        }
+
+        private void ConfigurarInterfaz()
+        {
+       
+            // Eventos
+            lstPersonas.SelectedIndexChanged += LstPersonas_SelectedIndexChanged;
+            btnModificar.Click += BtnModificar_Click;
+            btnNueva.Click += BtnNueva_Click;
+            btnEliminar.Click += BtnEliminar_Click;
+        }
+
+        // 1. Leer todas las personas y 2. Mostrar nombres en ListBox
+        private void CargarDatos()
+        {
+            try
+            {
+                doc = XDocument.Load(path);
+                var lista = doc.Descendants("persona")
+                    .Select(x => new {
+                        Id = x.Attribute("id").Value,
+                        Nombre = x.Element("nombre").Value
+                    }).ToList();
+
+                lstPersonas.DataSource = lista;
+                lstPersonas.DisplayMember = "Nombre";
+                lstPersonas.ValueMember = "Id";
+            }
+            catch (Exception ex) { MessageBox.Show("Error al cargar XML: " + ex.Message); }
+        }
+
+        // 3. Al seleccionar un nombre: Mostrar datos en TextBox 
+        private void LstPersonas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lstPersonas.SelectedValue != null && lstPersonas.SelectedValue is string id)
+            {
+                var persona = doc.Descendants("persona").FirstOrDefault(x => x.Attribute("id").Value == id);
+                if (persona != null)
+                {
+                    txtNombre.Text = persona.Element("nombre").Value;
+                    txtEdad.Text = persona.Element("edad").Value;
+                }
+            }
+        }
+
+        // 4. Botón Modificar: Actualizar con datos de TextBox
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+            if (lstPersonas.SelectedValue == null) return;
+
+            string id = lstPersonas.SelectedValue.ToString();
+            var persona = doc.Descendants("persona").FirstOrDefault(x => x.Attribute("id").Value == id);
+
+            if (persona != null)
+            {
+                persona.Element("nombre").Value = txtNombre.Text;
+                persona.Element("edad").Value = txtEdad.Text;
+                doc.Save(path);
+                CargarDatos(); // 7. Actualizar ListBox 
+                MessageBox.Show("Persona actualizada.");
+            }
+        }
+
+        // 5. Botón Nueva Persona
+        private void BtnNueva_Click(object sender, EventArgs e)
+        {
+            XElement nueva = new XElement("persona",
+                new XAttribute("id", Guid.NewGuid().ToString().Substring(0, 5)),
+                new XElement("nombre", txtNombre.Text),
+                new XElement("edad", txtEdad.Text)); 
+
+            doc.Root.Add(nueva);
+            doc.Save(path);
+            CargarDatos(); // 7. Actualizar ListBox 
+            limpiarCampos();
+        }
+
+        // 6. Botón Eliminar con Confirmación
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            if (lstPersonas.SelectedValue == null) return;
+
+            var confirmacion = MessageBox.Show("¿Está seguro de eliminar esta persona?", "Confirmar", MessageBoxButtons.YesNo); // 
+            if (confirmacion == DialogResult.Yes)
+            {
+                string id = lstPersonas.SelectedValue.ToString();
+                doc.Descendants("persona").Where(x => x.Attribute("id").Value == id).Remove(); // [cite: 13]
+                doc.Save(path);
+                CargarDatos(); // 7. Actualizar ListBox 
+                limpiarCampos();
+            }
+        }
+
+        private void limpiarCampos()
+        {
+            txtNombre.Clear();
+            txtEdad.Clear();
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjercicioXMLDocument\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{673EAE74-0AF4-4E7B-8E1B-02827631A90B}|EjercicioXMLDocument\\EjercicioXMLDocument.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t4\\ejercicioxmldocument\\ejercicioxmldocument\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{673EAE74-0AF4-4E7B-8E1B-02827631A90B}|EjercicioXMLDocument\\EjercicioXMLDocument.csproj|solutionrelative:ejercicioxmldocument\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{673EAE74-0AF4-4E7B-8E1B-02827631A90B}|EjercicioXMLDocument\\EjercicioXMLDocument.csproj|c:\\users\\pedri\\desktop\\dam2\\desarrollo de interfaces\\t4\\ejercicioxmldocument\\ejercicioxmldocument\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{673EAE74-0AF4-4E7B-8E1B-02827631A90B}|EjercicioXMLDocument\\EjercicioXMLDocument.csproj|solutionrelative:ejercicioxmldocument\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjercicioXMLDocument\\EjercicioXMLDocument\\Form1.cs",
+              "RelativeDocumentMoniker": "EjercicioXMLDocument\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjercicioXMLDocument\\EjercicioXMLDocument\\Form1.cs",
+              "RelativeToolTip": "EjercicioXMLDocument\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:58:04.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjercicioXMLDocument\\EjercicioXMLDocument\\Form1.cs",
+              "RelativeDocumentMoniker": "EjercicioXMLDocument\\Form1.cs",
+              "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjercicioXMLDocument\\EjercicioXMLDocument\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "EjercicioXMLDocument\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T12:57:39.875Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
