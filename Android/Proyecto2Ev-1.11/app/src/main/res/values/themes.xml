@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WalkPath" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="editTextStyle">@style/GlobalEditTextStyle</item>
+    </style>
+
+    <style name="Theme.WalkPath" parent="Base.Theme.WalkPath" />
+
+    <!-- Style for EditText with bottom margin -->
+    <style name="GlobalEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+</resources>

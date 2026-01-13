@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WalkPath</string>
+    <string name="app_version">1.11</string>
+    <string name="nueva_ruta">Nueva Ruta</string>
+    <string name="ver_rutas">Ver Rutas</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="salir">Salir</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre">Nombre</string>
+    <string name="localizacion">localización</string>
+    <string name="lineal">Lineal</string>
+    <string name="circular">Circular</string>
+    <string name="tipo_de_ruta">Tipo de ruta</string>
+    <string name="distancia_km">Distancia(km)</string>
+    <string name="descripcion">Descripción</string>
+    <string name="notas">Notas</string>
+    <string name="favorita">Favorita</string>
+    <string name="app_autores">Pedro Martínez Sánchez, Roberto Company Zomeño, Jorge Hernández Aparicio</string>
+    <string name="app_release_fecha">11/01/2026</string>
+    <string name="app_descripcion">Aplicación móvil que registra rutas de senderismo usando GPS, mostrando recorridos, distancia, tiempo y desnivel, y guardando el historial de tus caminatas.</string>
+
+    <string-array name="dificultad">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

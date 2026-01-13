@@ -9,12 +9,13 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         try {
-            System.out.println("=== INICIANDO TEST DE HOGWARTS ===\n");
 
             // 1. Instanciar Servicios
             HouseService houseService = new HouseService();
             PersonService personService = new PersonService();
             HousePointsService pointsService = new HousePointsService();
+
+            System.out.println("=== INICIANDO TEST DE HOGWARTS ===\n");
 
             // 2. TEST: Obtener Director de una Casa
             System.out.println("1. Test getHeadTeacher:");

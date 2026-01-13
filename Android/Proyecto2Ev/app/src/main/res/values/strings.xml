@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">WalkPath</string>
-    <string name="nueva_ruta">Nueva Ruta</string>
-    <string name="ver_rutas">Ver Rutas</string>
-    <string name="ayuda">Ayuda</string>
-    <string name="acerca_de">Acerca De</string>
-    <string name="salir">Salir</string>
-    <string name="guardar">Guardar</string>
-</resources>
