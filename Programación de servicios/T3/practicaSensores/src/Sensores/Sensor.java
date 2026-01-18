@@ -1,3 +1,5 @@
+package Sensores;
+
 public class Sensor {
     private int idSensor;
     private boolean estado;
