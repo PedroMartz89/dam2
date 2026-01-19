@@ -1,0 +1,113 @@
+﻿using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
+using EjWord.Modelos;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EjExcel.Services
+{
+
+    internal class ExcelService
+    {
+
+
+        // EXCEL DESDE CERO
+        public void CrearExcel(string ruta)
+        {
+            var wb = new XLWorkbook();
+            var ws = wb.Worksheets.Add("Datos");
+            ws.Cell(1, 1).Value = "Nombre";
+            ws.Cell(2, 1).Value = "Telefono";
+            ws.Cell(3, 1).Value = "Email";
+            wb.SaveAs(ruta);
+        }
+
+        // EXCEL DESDE PLANTILLA
+        public void GenerarDesdePlantillaExcel(string ruta, string salida, Agenda[] agenda)
+        {
+            File.Copy(ruta, salida, true);
+
+            using (SpreadsheetDocument doc = SpreadsheetDocument.Open(salida, true))
+            {
+                WorkbookPart workbookPart = doc.WorkbookPart;
+                // Obtenemos la primera hoja
+                Sheet hoja = workbookPart.Workbook.Descendants<Sheet>().FirstOrDefault();
+                WorksheetPart worksheetPart = (WorksheetPart)workbookPart.GetPartById(hoja.Id);
+                SheetData sheetData = worksheetPart.Worksheet.GetFirstChild<SheetData>();
+
+                // Buscamos la fila que contiene las etiquetas
+                Row filaPlantilla = sheetData.Elements<Row>().FirstOrDefault(r =>
+                    r.Descendants<Cell>().Any(c =>
+                    {
+                        var text = GetCellText(workbookPart, c);
+                        return !string.IsNullOrEmpty(text) && text.Contains("{B1}");
+                    }));
+
+                if (filaPlantilla != null)
+                {
+                    uint rowIndex = filaPlantilla.RowIndex.Value;
+
+                    foreach (var contacto in agenda)
+                    {
+                        // Creamos una nueva fila
+                        Row nuevaFila = new Row { RowIndex = rowIndex };
+
+                        nuevaFila.Append(CrearCeldaTexto("A", rowIndex, contacto.Nombre));
+                        nuevaFila.Append(CrearCeldaTexto("B", rowIndex, contacto.Telefono.ToString()));
+                        nuevaFila.Append(CrearCeldaTexto("C", rowIndex, contacto.Email));
+
+                        sheetData.AppendChild(nuevaFila);
+                        rowIndex++;
+                    }
+
+                    sheetData.RemoveChild(filaPlantilla);
+                }
+
+                worksheetPart.Worksheet.Save();
+            }
+        }
+
+        private Cell CrearCeldaTexto(string columna, uint fila, string texto)
+        {
+            return new Cell
+            {
+                CellReference = columna + fila,
+                DataType = CellValues.String,
+                CellValue = new CellValue(texto ?? "")
+            };
+        }
+
+        private string GetCellText(WorkbookPart workbookPart, Cell cell)
+        {
+            if (cell == null)
+                return null;
+
+            if (cell.CellValue != null)
+                return cell.CellValue.Text;
+
+            // If the cell uses shared string table
+            if (cell.DataType != null && cell.DataType == CellValues.SharedString)
+            {
+                int id;
+                if (int.TryParse(cell.InnerText, out id))
+                {
+                    var sst = workbookPart.GetPartsOfType<SharedStringTablePart>().FirstOrDefault();
+                    if (sst != null)
+                    {
+                        var item = sst.SharedStringTable.Elements<SharedStringItem>().ElementAtOrDefault(id);
+                        if (item != null)
+                            return item.InnerText;
+                    }
+                }
+            }
+
+            return null;
+        }
+    }
+}
+
