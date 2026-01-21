@@ -60,12 +60,13 @@ def persona_no_en_diccionario(p, d):
     return True
 
 def menu_diccionario_opciones(d, tpersonas):
-    indice = 0
+    p = list(d.keys())
+    personas_menu = []
+    for i in range(len(p)):
+        if p[i] not in personas_menu:
+            personas_menu.append(p[i])
+            print(f"{i}.{p[i]}")
 
-    while indice < tpersonas:
-        for p in d:
-            print(f"{indice} - {str(p)}")
-            indice+=1
 
     correcto = False
     opcion = int(input("Introduce el número de la persona: "))
@@ -74,27 +75,23 @@ def menu_diccionario_opciones(d, tpersonas):
             correcto = True
         opcion = int(input("Introduce el número de la persona: "))
 
-    tamano_matriz = math.ceil(math.sqrt(tpersonas))
+
     personas = []
     for persona in d:
         personas.append(persona)
 
     persona_elegida = personas[int(opcion)]
-
     coordenadas = d.get(persona_elegida, [])
-
-    for i in range(tamano_matriz):
-        fila = []
-        for j in range(tamano_matriz):
-            fila.append(None)
+    tamano_matriz = math.ceil(math.sqrt(tpersonas))
 
     for i in range(0, tamano_matriz):
-        for j in range(0,tamano_matriz - i):
+        for j in range(0,tamano_matriz):
             actual = (i, j)
             if actual in coordenadas:
-                print(persona_elegida)
+                print(f"{persona_elegida[:3]:^5}", end="") # Uso [:3] para solo coger las 3 primeras letras
+                                                           # por si en nombre es muy largo
             else:
-                print("---")
+                print(f"{'---':^5}", end="") # Uso ^5 para formatear el texto y que se vea correctamente
         print()
 
 def Comer(matriz):
@@ -113,15 +110,19 @@ def Comer(matriz):
                         matriz[i][j] = matriz[i][j+1]
                 else:
                     Vecinos.append(matriz[i][j+1])
+
 matriz = [
     ["Pepe", "Maria", "Juan"],
     ["Pepe", "Pepe", "Juan"],
     ["Maria", "Maria", "Pepe"]
 ]
 D = diccionario_personas_posiciones(generar_matriz_cuadrada())
+
 personas = ["Pedro", "Claudia", "Paloma", "Jorge", "Roberto", "Alberto"]
+
 # pedir_nombres_persona()
 # mostrar_matriz(generar_matriz_cuadrada())
 # mostrar_diccionario(diccionario_personas_posiciones(generar_matriz_cuadrada()))
 # print(persona_no_en_diccionario("Juan", diccionario_personas_posiciones(matriz)))
-menu_diccionario_opciones(D, len(personas))
+# menu_diccionario_opciones(D, len(personas))
+Comer(matriz)
