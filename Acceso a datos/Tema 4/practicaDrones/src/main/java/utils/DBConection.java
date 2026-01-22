@@ -9,16 +9,11 @@ public class DBConection {
     private static final String DATABASE_NAME = "rescue_const";
 
     private static MongoClient mongoClient = null;
+    private static MongoDatabase db;
 
-    public static MongoClient getConnection() {
-        if (mongoClient == null) {
-            mongoClient = MongoClients.create(CONNECTION_STRING);
-        }
-        return mongoClient;
-    }
-
-    public static MongoDatabase getDatabase() {
-        return getConnection().getDatabase(DATABASE_NAME);
+    public DBConection() {
+        mongoClient = MongoClients.create(CONNECTION_STRING);
+        db = mongoClient.getDatabase(DATABASE_NAME);
     }
 
     public static void closeConnection() {
@@ -28,5 +23,7 @@ public class DBConection {
         }
     }
 
-
+    public static MongoDatabase getDb() {
+        return db;
+    }
 }
