@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados">
+        <item>Todos</item>
+        <item>Abierta</item>
+        <item>En curso</item>
+        <item>Resuelta</item>
+    </string-array>
+
+    <string-array name="prioridades">
+        <item>Todas</item>
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+
+    <string-array name="ubicaciones">
+        <item>Todas</item>
+        <item>Aula 1</item>
+        <item>Aula 2</item>
+        <item>Taller</item>
+    </string-array>
+
+    <string-array name="tipos">
+        <item>Todos</item>
+        <item>PC</item>
+        <item>Portátil</item>
+        <item>Proyector</item>
+        <item>Impresora</item>
+        <item>Red</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

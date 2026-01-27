@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AppAndroidIncindencia</string>
+    <string name="app_name">AppIncidencias</string>
+    <string name="configuracion">Configuración</string>
+    <string name="activar">Activar envío automático</string>
+    <string name="email_responsable">Email responsable</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="nueva_incidencia">Nueva incidencia</string>
 </resources>
