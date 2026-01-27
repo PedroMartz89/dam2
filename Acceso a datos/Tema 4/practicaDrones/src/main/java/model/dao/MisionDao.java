@@ -27,6 +27,6 @@ public class MisionDao implements dao<Mision>{
 
     @Override
     public List<Mision> findAll() {
-        return List.of();
+        return null;
     }
 }

@@ -21,4 +21,55 @@ public class Dron {
         this.estado = EstadoDron.disponible;
         this.misionesRealizadas = new ArrayList<>();
     }
+
+    public Dron() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getAnoFabricacion() {
+        return anoFabricacion;
+    }
+
+    public void setAnoFabricacion(String anoFabricacion) {
+        this.anoFabricacion = anoFabricacion;
+    }
+
+    public EstadoDron getEstado() {
+        return estado;
+    }
+
+    public void setEstado(EstadoDron estado) {
+        this.estado = estado;
+    }
+
+    public int getNivelBateria() {
+        return nivelBateria;
+    }
+
+    public void setNivelBateria(int nivelBateria) {
+        this.nivelBateria = nivelBateria;
+    }
+
+    public List<Mision> getMisionesRealizadas() {
+        return misionesRealizadas;
+    }
+
+    public void setMisionesRealizadas(List<Mision> misionesRealizadas) {
+        this.misionesRealizadas = misionesRealizadas;
+    }
 }
