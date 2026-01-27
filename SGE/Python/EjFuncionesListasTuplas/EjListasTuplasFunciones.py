@@ -13,24 +13,16 @@ def pedir_nombres_persona():
     return personas
 
 def generar_matriz_cuadrada():
-    personas = ["Pedro", "Claudia", "Paloma", "Jorge", "Roberto", "Alberto"]
+    nombres = ["Pedro", "Claudia", "Paloma", "Jorge", "Roberto", "Alberto"]
     # La raiz cuadrada de N nos da el lado de la matriz
-    N = math.ceil(math.sqrt(len(personas)))
-
-    #Rellenamos los espacios vacios con None
-    while len(personas) < N * N:
-        personas.append(None)
-
-    #Aleatorizamos la lista
-    random.shuffle(personas)
-
-    #Generamos la matriz
-    M = []
-    for i in range(0, len(personas), N):
-        fila = personas[i : i + N]
-        M.append(fila)
-
-    return M
+    random.shuffle(nombres)
+    matriz = []
+    for i in range(len(nombres)):
+        columna = []
+        for j in range(len(nombres)):
+            columna.append(random.choice(nombres))
+        matriz.append(columna)
+    return matriz
 
 def mostrar_matriz(m):
     for fila in m:
@@ -94,22 +86,35 @@ def menu_diccionario_opciones(d, tpersonas):
                 print(f"{'---':^5}", end="") # Uso ^5 para formatear el texto y que se vea correctamente
         print()
 
-def Comer(matriz):
+def comer(matriz):
+    fila = len(matriz)
+    col = len(matriz[0])
+    cambiado = True
+    while cambiado:
+        cambiado = False
+        matriz_copia = [f[:] for f in matriz]
 
-    Cambio = True
-    L = len(matriz)
-    while Cambio:
-        for i in range(0, L):
-            for j in range(0, L):
-                Vecinos = []
-                if i > 0:
-                    Vecinos.append(matriz[i-1][j])
-                if j < L-1:
-                    if matriz[i][j+1] in Vecinos:
-                        Cambio = True
-                        matriz[i][j] = matriz[i][j+1]
-                else:
-                    Vecinos.append(matriz[i][j+1])
+        for i in range(fila):
+            for j in range(col):
+                actual = matriz[i][j]
+                # chequeo de arriba y abajo
+                if 0 <= i-1 < fila and 0 <= i+1 < fila:
+                    arriba = matriz[i-1][j]
+                    abajo = matriz[i + 1][j]
+                    if arriba == abajo and arriba != actual:
+                        matriz_copia[i][j] = arriba
+                        cambiado = True
+                # chequeo de derecha e izquierda
+                if 0 <= j-1 < fila and 0 <= j+1 < col:
+                    izquierda = matriz[i][j-1]
+                    derecha = matriz[i][j + 1]
+                    if izquierda == derecha and izquierda != actual:
+                        matriz_copia[i][j] = izquierda
+                        cambiado = True
+        matriz[:] = matriz_copia
+        return matriz
+    return None
+
 
 matriz = [
     ["Pepe", "Maria", "Juan"],
@@ -121,8 +126,8 @@ D = diccionario_personas_posiciones(generar_matriz_cuadrada())
 personas = ["Pedro", "Claudia", "Paloma", "Jorge", "Roberto", "Alberto"]
 
 # pedir_nombres_persona()
-# mostrar_matriz(generar_matriz_cuadrada())
+mostrar_matriz(generar_matriz_cuadrada())
 # mostrar_diccionario(diccionario_personas_posiciones(generar_matriz_cuadrada()))
 # print(persona_no_en_diccionario("Juan", diccionario_personas_posiciones(matriz)))
 # menu_diccionario_opciones(D, len(personas))
-Comer(matriz)
+# mostrar_matriz(comer(matriz))
