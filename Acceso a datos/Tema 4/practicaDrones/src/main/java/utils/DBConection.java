@@ -5,7 +5,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
 
 public class DBConection {
-    private static final String CONNECTION_STRING = "mongodb://localhost:27017/";
+    private static final String CONNECTION_STRING = "mongodb://192.168.18.9:27017/";
     private static final String DATABASE_NAME = "drones";
 
     private static MongoClient mongoClient;

@@ -1,8 +1,8 @@
 package model.dao;
 
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.Updates;
 import enumerates.EstadoDron;
 import model.Dron;
 import model.Mision;
@@ -15,105 +15,105 @@ import java.util.List;
 import static com.mongodb.client.model.Filters.eq;
 
 public class DronDao implements dao<Dron> {
+    private final String COLLECTION_NAME = "drons";
+
+    private Document misionToDocument(Mision m) {
+        return new Document("tipoMision", m.getTipoMision())
+                .append("zona", m.getZona())
+                .append("duracion", m.getDuracion())
+                .append("exito", m.isExito())
+                .append("nivelRiesgo", m.getNivelRiesgo());
+    }
+
     @Override
     public void create(Dron entity) {
-        try {
-
-            MongoCollection<Document> drones = DBConection.getDb().getCollection("drones");
-            Document dron = new Document();
-            dron.append("id_unico", entity.getId());
-            dron.append("anio_fabricacion", entity.getAnoFabricacion());
-            dron.append("estado", entity.getEstado());
-            dron.append("modelo", entity.getModelo());
-            dron.append("bateria", entity.getNivelBateria());
-            dron.append("misiones", entity.getMisionesRealizadas());
-
-            drones.insertOne(dron);
-        } catch (Exception e) {
-            System.out.printf("No se ha insertado");
-        }
+        MongoCollection<Document> collection = DBConection.getDb().getCollection(COLLECTION_NAME);
+        Document dron = new Document("id_unico", entity.getId())
+                .append("modelo", entity.getModelo())
+                .append("anio_fabricacion", entity.getAnoFabricacion())
+                .append("estado", entity.getEstado().name())
+                .append("bateria", entity.getNivelBateria())
+                .append("misiones", new ArrayList<Document>());
+        collection.insertOne(dron);
     }
 
     @Override
     public Dron read(int id) {
-        MongoDatabase db = DBConection.getDb();
-        MongoCollection<Document> drones = db.getCollection("drones");
-        Document d = drones.find(eq("id_unico", id)).first();
+        Document d = DBConection.getDb().getCollection(COLLECTION_NAME).find(eq("id_unico", id)).first();
+        if (d == null) return null;
+
         Dron dron = new Dron();
-        assert d != null;
-
-        List<Document> misionesDoc = d.getList("misiones", Document.class);
-        List<Mision> misiones = new ArrayList<>();
-        for (Document doc : misionesDoc) {
-            Mision m = new Mision();
-            m.setTipoMision(doc.getString("tipoMision"));
-            m.setZona(doc.getString("zona"));
-            m.setDuracion(doc.getLong("diracion"));
-            m.setExito(doc.getBoolean("exito"));
-            m.setNivelRiesgo(doc.getInteger("nivelRiesgo"));
-            misiones.add(m);
-        }
-
         dron.setId(d.getInteger("id_unico"));
-        dron.setAnoFabricacion((d.getString("anio_fabricacion")));
-        dron.setEstado(EstadoDron.valueOf(d.getString("estado")));
         dron.setModelo(d.getString("modelo"));
+        dron.setAnoFabricacion(d.getString("anio_fabricacion"));
         dron.setNivelBateria(d.getInteger("bateria"));
+        dron.setEstado(EstadoDron.valueOf(d.getString("estado")));
+
+        List<Mision> misiones = new ArrayList<>();
+        List<Document> docs = d.getList("misiones", Document.class);
+        if (docs != null) {
+            for (Document mDoc : docs) {
+                Mision m = new Mision();
+                m.setTipoMision(mDoc.getString("tipoMision"));
+                m.setZona(mDoc.getString("zona"));
+                m.setDuracion(mDoc.getLong("duracion"));
+                m.setExito(mDoc.getBoolean("exito"));
+                m.setNivelRiesgo(mDoc.getInteger("nivelRiesgo"));
+                misiones.add(m);
+            }
+        }
         dron.setMisionesRealizadas(misiones);
         return dron;
-
     }
 
     @Override
     public void update(Dron entity) {
-        MongoDatabase db = DBConection.getDb();
-        MongoCollection<Document> drones = db.getCollection("drones");
-
-        Document doc = new Document();
-        doc.append("id_unico", entity.getId());
-        doc.append("anio_fabricacion", entity.getAnoFabricacion());
-        doc.append("estado", entity.getEstado());
-        doc.append("modelo", entity.getModelo());
-        doc.append("bateria", entity.getNivelBateria());
-        doc.append("misiones", entity.getMisionesRealizadas());
-
-        drones.replaceOne(eq("id_unico", entity.getId()), doc);
+        DBConection.getDb().getCollection(COLLECTION_NAME).updateOne(
+                eq("id_unico", entity.getId()),
+                Updates.combine(
+                        Updates.set("estado", entity.getEstado().name()),
+                        Updates.set("bateria", entity.getNivelBateria())
+                )
+        );
     }
 
     @Override
     public void delete(Dron entity) {
-        MongoDatabase db = DBConection.getDb();
-        MongoCollection<Document> drones = db.getCollection("drones");
-
-        drones.deleteOne(eq("id_unico", entity.getId()));
+        DBConection.getDb().getCollection(COLLECTION_NAME).deleteOne(eq("id_unico", entity.getId()));
     }
 
     @Override
     public List<Dron> findAll() {
-        MongoDatabase db = DBConection.getDb();
-        MongoCollection<Document> dronesDoc = db.getCollection("drones");
-        List<Dron> drones = new ArrayList<>();
-        List<Mision> misiones = new ArrayList<>();
+        List<Dron> lista = new ArrayList<>();
+        for (Document d : DBConection.getDb().getCollection(COLLECTION_NAME).find()) {
+            lista.add(read(d.getInteger("id_unico")));
+        }
+        return lista;
+    }
 
-        for (Document d : dronesDoc.find()) {
+    public void registrarMision(int idDron, Mision mision) {
+        DBConection.getDb().getCollection(COLLECTION_NAME).updateOne(
+                eq("id_unico", idDron),
+                Updates.push("misiones", misionToDocument(mision))
+        );
+    }
 
-            Mision m = new Mision();
-            m.setTipoMision(d.getString("tipoMision"));
-            m.setZona(d.getString("zona"));
-            m.setDuracion(d.getLong("diracion"));
-            m.setExito(d.getBoolean("exito"));
-            m.setNivelRiesgo(d.getInteger("nivelRiesgo"));
-            misiones.add(m);
+    public List<Dron> findBateriaBaja(int limite) {
+        List<Dron> resultado = new ArrayList<>();
+        for (Document d : DBConection.getDb().getCollection(COLLECTION_NAME).find(Filters.lt("bateria", limite))) {
             Dron dron = new Dron();
-            dron.setId(d.getInteger("id_unico"));
-            dron.setAnoFabricacion((d.getString("anio_fabricacion")));
-            dron.setEstado(EstadoDron.valueOf(d.getString("estado")));
             dron.setModelo(d.getString("modelo"));
             dron.setNivelBateria(d.getInteger("bateria"));
-            dron.setMisionesRealizadas(misiones);
-            drones.add(dron);
+            resultado.add(dron);
         }
+        return resultado;
+    }
 
-        return drones;
+    public List<Dron> findMisionesAltoRiesgo() {
+        List<Dron> resultado = new ArrayList<>();
+        for (Document d : DBConection.getDb().getCollection(COLLECTION_NAME).find(Filters.gte("misiones.nivelRiesgo", 4))) {
+            resultado.add(read(d.getInteger("id_unico")));
+        }
+        return resultado;
     }
 }
