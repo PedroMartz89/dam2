@@ -8,29 +8,37 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 
 public class GestorTelnet {
-    public void ejecutarComando(String ip, String comando) {
-        TelnetClient telnetClient = new TelnetClient();
+   public void ejecutarComando(String ip, String comando) {
+    TelnetClient telnetClient = new TelnetClient();
 
-        try {
-            telnetClient.connect(ip, 23);
+    try {
+        telnetClient.connect(ip, 2323); // Es el puerto que tengo en el docker que he levantado
 
-            PrintStream out = new PrintStream(telnetClient.getOutputStream());
-            BufferedReader in = new BufferedReader(new InputStreamReader(telnetClient.getInputStream()));
+        PrintStream out = new PrintStream(telnetClient.getOutputStream());
+        BufferedReader in = new BufferedReader(new InputStreamReader(telnetClient.getInputStream()));
 
-            out.println(comando);
-            out.flush();
+        Thread.sleep(500);
+        out.println("root"); // Usuario de mi docker
+        out.flush();
+        Thread.sleep(500);
+        out.println("root"); // Password de mi docker
+        out.flush();
 
-            System.out.println("Respuesta del servidor: ");
-            String linea;
-            while (in.ready() && (linea = in.readLine()) != null) {
-                System.out.println(linea);
-            }
+        Thread.sleep(500);
+        out.println(comando);
+        out.flush();
 
-            telnetClient.disconnect();
-            out.close();
-            in.close();
-        } catch (IOException e) {
-            System.out.println("Error en Telnet: " + e.getMessage());
+        System.out.println("Respuesta del servidor: ");
+        Thread.sleep(1000);
+
+        String linea;
+        while (in.ready() && (linea = in.readLine()) != null) {
+            System.out.println(linea);
         }
+
+        telnetClient.disconnect();
+    } catch (Exception e) {
+        System.out.println("Error: " + e.getMessage());
     }
+}
 }

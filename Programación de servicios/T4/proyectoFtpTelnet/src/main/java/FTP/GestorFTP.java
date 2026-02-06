@@ -15,7 +15,7 @@ public class GestorFTP {
 
     public boolean conectar(String server, String user, String pass) {
         try {
-            ftpClient.connect(server, 21);
+            ftpClient.connect(server, 5000);
             if (ftpClient.login(user, pass)) {
                 ftpClient.enterLocalPassiveMode();
                 return true;
