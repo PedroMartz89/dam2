@@ -26,11 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "EjWord\\Servicios\\WordService.cs",
               "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjWord\\EjWord\\Servicios\\WordService.cs",
               "RelativeToolTip": "EjWord\\Servicios\\WordService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T17:23:03.311Z",
               "EditorCaption": ""
@@ -55,8 +59,7 @@
               "RelativeToolTip": "EjWord\\Form1.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwBAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T17:41:25.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T17:41:25.169Z"
             },
             {
               "$type": "Document",
@@ -68,8 +71,7 @@
               "RelativeToolTip": "EjWord\\Modelos\\Agenda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T17:16:38.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T17:16:38.594Z"
             },
             {
               "$type": "Document",
@@ -80,8 +82,7 @@
               "ToolTip": "C:\\Users\\pedri\\Desktop\\dam2\\Desarrollo de Interfaces\\T4\\EjWord\\EjWord\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "EjWord\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T17:07:59.71Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-01-15T17:07:59.71Z"
             }
           ]
         }

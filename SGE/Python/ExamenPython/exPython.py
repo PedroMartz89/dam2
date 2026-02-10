@@ -1,6 +1,6 @@
 import random
 
-
+#completo
 def configurar_juego():
     filas = int(input("Introduce el número de filas (>=3): "))
     colum = int(input("Introduce el número de columnas (>=3): "))
@@ -13,10 +13,12 @@ def configurar_juego():
     d = {"filas": filas, "columnas":colum, "NJugadores": jugadores}
     return d
 
+#completo
 def jugadores(d):
     numJugadores = d["NJugadores"]
     dicJugadores = {}
     adicionNombre = 2
+    #completo
     for i in range(1, numJugadores+1):
         nombre = str(input(f"Introduce el nombre del jugador {i}: "))
         if nombre in dicJugadores.keys():

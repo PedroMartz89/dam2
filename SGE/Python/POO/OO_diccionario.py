@@ -1,3 +1,4 @@
+
 class Diccionario:
     def __init__(self, nombre, editorial="XXX", nivel="FP"):
         self.nombre = nombre
