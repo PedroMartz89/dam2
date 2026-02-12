@@ -72,6 +72,7 @@ def menu():
             unidad = str(input("Introduce el tema: ")).lower()
             num_preguntas = int(input("Introduce el número de preguntas: "))
             ex.generar_examen(unidad, num_preguntas)
+
         opcion = int(input("Introduce una opción: "))
 
 menu()
