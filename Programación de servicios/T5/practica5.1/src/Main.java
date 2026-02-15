@@ -41,8 +41,8 @@ public class Main {
     public static void mostrarMenu() {
         System.out.println("\n--- Menú de control ---");
         System.out.println("1. Establecer directorio de origen y destino.");
-        System.out.println("2. Copiar directorio origen a destino.");
-        System.out.println("3. Verficiar integridad.");
+        System.out.println("2. Copiar directorio origen a destino cifrando y generando CHK.");
+        System.out.println("3. Verificar integridad.");
         System.out.println("4. Salir");
     }
     public static void establecerDirectorio() {
