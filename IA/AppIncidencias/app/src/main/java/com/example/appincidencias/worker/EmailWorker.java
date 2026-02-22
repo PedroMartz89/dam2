@@ -1,6 +1,7 @@
 package com.example.appincidencias.worker;
 
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.work.Worker;
@@ -18,14 +19,12 @@ import javax.mail.*;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class EmailWorker extends Worker {
+
+    private static final String TAG = "EmailWorker";
 
     public EmailWorker(@NonNull Context context, @NonNull WorkerParameters params) {
         super(context, params);
@@ -36,57 +35,66 @@ public class EmailWorker extends Worker {
     public Result doWork() {
         AppPreferences prefs = new AppPreferences(getApplicationContext());
 
-        // Verificar si el envío está activado
-        if (!prefs.isEnvioActivo()) return Result.success();
+        if (!prefs.isEnvioActivo()) {
+            Log.d(TAG, "Envío desactivado en preferencias.");
+            return Result.success();
+        }
 
-        // 1. Obtener incidencias pendientes de Room
+        String emailDestino = prefs.getEmail();
+        if (emailDestino == null || emailDestino.isEmpty()) {
+            Log.e(TAG, "No hay email configurado para el envío.");
+            return Result.failure();
+        }
+
         List<Incidencia> pendientes = AppDatabase.getInstance(getApplicationContext())
-                .incidenciaDao().getPendientes(); // Debes definir este query en tu DAO
+                .incidenciaDao().getPendientes();
 
-        if (pendientes.isEmpty()) return Result.success();
+        if (pendientes.isEmpty()) {
+            Log.d(TAG, "No hay incidencias pendientes para resumir.");
+            return Result.success();
+        }
 
-        // 2. Preparar el Prompt estructurado (Fase 5)
-        String prompt = "Actúa como un gestor de IT. Genera un resumen profesional para un email. " +
-                "Agrupa por ubicación y tipo de dispositivo. Destaca las de prioridad ALTA. " +
-                "Datos de incidencias: " + formatIncidencias(pendientes);
+        String prompt = "Actúa como un gestor de IT experto. Genera un resumen ejecutivo profesional para un correo electrónico. " +
+                "Agrupa las incidencias por ubicación y tipo de dispositivo. " +
+                "Destaca claramente aquellas con prioridad ALTA. " +
+                "Utiliza un tono formal y estructurado. " +
+                "Datos de incidencias pendientes:\n" + formatIncidencias(pendientes);
 
         try {
-            // 3. Llamada a la API de Gemini
             String resumenIA = generarResumenConGemini(prompt);
-
-            // 4. Enviar el correo con el resumen generado
-            enviarEmail(prefs.getEmail(), resumenIA);
-
+            enviarEmail(emailDestino, resumenIA);
+            Log.d(TAG, "Email enviado correctamente a " + emailDestino);
             return Result.success();
         } catch (Exception e) {
-            return Result.retry(); // Reintento en caso de error de red
+            Log.e(TAG, "Error en el trabajador de correo: " + e.getMessage());
+            return Result.retry();
         }
     }
 
     private String generarResumenConGemini(String prompt) throws ExecutionException, InterruptedException {
-        // Configuración del modelo (Usa tu API Key de Google AI Studio)
-        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "TU_API_KEY_AQUI");
+        // NOTA: En un entorno real, la API KEY debería obtenerse de forma segura (BuildConfig o similar)
+        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "NO_TENGO_API_KEY");
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
 
         Content content = new Content.Builder().addText(prompt).build();
         ListenableFuture<GenerateContentResponse> response = model.generateContent(content);
 
-        return response.get().getText(); // Obtiene el texto del resumen
+        return response.get().getText();
     }
 
     private String formatIncidencias(List<Incidencia> lista) {
         StringBuilder sb = new StringBuilder();
         for (Incidencia i : lista) {
-            sb.append(String.format("- Ubicación: %s, Tipo: %s, Prioridad: %s, Descripción: %s\n",
-                    i.ubicacion, i.tipoDispositivo, i.prioridad, i.descripcion));
+            sb.append(String.format("- [%s] %s en %s (%s). Identificación: %s. Descripción: %s\n",
+                    i.prioridad, i.tipoDispositivo, i.ubicacion, i.estado, i.identificacion, i.descripcion));
         }
         return sb.toString();
     }
 
-    private void enviarEmail(String destino, String cuerpo) {
-        // Datos del servidor SMTP (Ejemplo con Gmail)
+    private void enviarEmail(String destino, String cuerpo) throws MessagingException {
+        // Datos del servidor SMTP (Configuración segura requerida en producción)
         final String usuario = "tu-correo@gmail.com";
-        final String password = "tu-app-password"; // Contraseña de aplicación de Google
+        final String password = "tu-app-password"; 
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
@@ -100,20 +108,12 @@ public class EmailWorker extends Worker {
             }
         });
 
-        try {
-            Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress(usuario));
-            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(destino));
-            message.setSubject("Resumen Automático de Incidencias - FIAG");
-            message.setText(cuerpo);
+        Message message = new MimeMessage(session);
+        message.setFrom(new InternetAddress(usuario));
+        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(destino));
+        message.setSubject("Resumen de Incidencias Pendientes - Sistema FIAG");
+        message.setText(cuerpo);
 
-            // Envío efectivo del correo [cite: 40, 153]
-            Transport.send(message);
-
-        } catch (MessagingException e) {
-            // Registro de errores para la rúbrica de robustez [cite: 49, 154]
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }
+        Transport.send(message);
     }
 }

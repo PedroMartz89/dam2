@@ -2,10 +2,18 @@ package com.example.appincidencias.ui;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.work.ExistingPeriodicWorkPolicy;
+import androidx.work.PeriodicWorkRequest;
+import androidx.work.WorkManager;
+
 import com.example.appincidencias.R;
 import com.example.appincidencias.utils.AppPreferences;
+import com.example.appincidencias.worker.EmailWorker;
+import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.textfield.TextInputEditText;
+
+import java.util.concurrent.TimeUnit;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -18,34 +26,54 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        // 1. Inicializar componentes del layout M3
+        MaterialToolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
+
         etEmail = findViewById(R.id.etEmail);
         swEnvio = findViewById(R.id.swEnvio);
 
-        // 2. Cargar preferencias guardadas
         prefs = new AppPreferences(this);
         etEmail.setText(prefs.getEmail());
         swEnvio.setChecked(prefs.isEnvioActivo());
 
-        // 3. Listener para el Switch de envío automático [cite: 30]
         swEnvio.setOnCheckedChangeListener((buttonView, isChecked) -> {
             prefs.setEnvioActivo(isChecked);
-            // Aquí podrías disparar o cancelar el WorkManager según el estado
-        });
-
-        // 4. Guardar email al perder el foco (cuando el usuario termina de escribir) [cite: 29]
-        etEmail.setOnFocusChangeListener((v, hasFocus) -> {
-            if (!hasFocus) {
-                String email = etEmail.getText().toString().trim();
-                prefs.setEmail(email);
+            if (isChecked) {
+                programarEnvioCorreo();
+            } else {
+                cancelarEnvioCorreo();
             }
         });
+
+        etEmail.setOnFocusChangeListener((v, hasFocus) -> {
+            if (!hasFocus) {
+                prefs.setEmail(etEmail.getText().toString().trim());
+            }
+        });
+    }
+
+    private void programarEnvioCorreo() {
+        PeriodicWorkRequest request = new PeriodicWorkRequest.Builder(
+                EmailWorker.class, 1, TimeUnit.HOURS)
+                .build();
+
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+                "envioCorreoWorker",
+                ExistingPeriodicWorkPolicy.KEEP,
+                request);
+    }
+
+    private void cancelarEnvioCorreo() {
+        WorkManager.getInstance(this).cancelUniqueWork("envioCorreoWorker");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        // Asegurar que el email se guarde si el usuario sale de la app sin quitar el foco
         prefs.setEmail(etEmail.getText().toString().trim());
     }
 }

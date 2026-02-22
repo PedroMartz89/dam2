@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -26,7 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements IncidenciaAdapter.OnIncidenciaClickListener {
 
     private AppDatabase db;
     private RecyclerView recyclerView;
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 3. Configurar RecyclerView (Sustituye al ListView anterior)
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new IncidenciaAdapter(new ArrayList<>());
+        adapter = new IncidenciaAdapter(new ArrayList<>(), this);
         recyclerView.setAdapter(adapter);
 
         // 4. Listeners
@@ -132,5 +133,23 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    public void onResolverClick(Incidencia incidencia) {
+        // Cambiamos el estado localmente
+        incidencia.estado = "Resuelta";
+
+        // Actualizamos en la base de datos en un hilo secundario (Room no permite hilos principales)
+        new Thread(() -> {
+            db.incidenciaDao().update(incidencia);
+
+            // Volvemos al hilo de UI para refrescar la lista
+            runOnUiThread(() -> {
+                cargarIncidencias(); // Recarga y aplica filtros actuales
+                Toast.makeText(this, "Incidencia marcada como resuelta", Toast.LENGTH_SHORT).show();
+            });
+        }).start();
     }
 }

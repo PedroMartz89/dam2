@@ -6,18 +6,18 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import com.example.appincidencias.R;
 import com.example.appincidencias.model.AppDatabase;
 import com.example.appincidencias.model.Incidencia;
+import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class AltaIncidenciaActivity extends AppCompatActivity {
 
-    private TextInputEditText etUbicacion, etDescripcion;
-    private AutoCompleteTextView spPrioridad;
+    private TextInputEditText etUbicacion, etDescripcion, etIdentificacion;
+    private AutoCompleteTextView spPrioridad, spTipoDispositivo;
     private MaterialButton btnGuardar;
     private AppDatabase db;
 
@@ -26,58 +26,72 @@ public class AltaIncidenciaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alta_incidencia);
 
-        // Inicializar base de datos local
         db = AppDatabase.getInstance(this);
 
-        // Vincular componentes del layout
         etUbicacion = findViewById(R.id.etUbicacion);
         etDescripcion = findViewById(R.id.etDescripcion);
+        etIdentificacion = findViewById(R.id.etIdentificacion);
         spPrioridad = findViewById(R.id.spPrioridad);
+        spTipoDispositivo = findViewById(R.id.spTipoDispositivo);
         btnGuardar = findViewById(R.id.btnGuardar);
 
-        // Configurar el menú desplegable de Prioridad (Material 3)
-        setupDropdown();
+        MaterialToolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
 
-        // Listener para guardar la incidencia
+        setupDropdowns();
+
         btnGuardar.setOnClickListener(v -> guardarIncidencia());
     }
 
-    private void setupDropdown() {
-        // Los valores deben coincidir con los requisitos: baja, media, alta
-        String[] prioridades = new String[]{"Baja", "Media", "Alta"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(
-                this,
-                R.layout.list_item, // Layout simple para el item del dropdown
-                prioridades
-        );
-        spPrioridad.setAdapter(adapter);
+    private void setupDropdowns() {
+        // Usar los arrays definidos en strings.xml / arrays.xml
+        String[] prioridades = getResources().getStringArray(R.array.prioridades);
+        // Filtrar "Todas" de la lista de prioridades para el alta
+        String[] prioridadesAlta = new String[prioridades.length - 1];
+        System.arraycopy(prioridades, 1, prioridadesAlta, 0, prioridades.length - 1);
+        
+        ArrayAdapter<String> adapterPrioridad = new ArrayAdapter<>(this, R.layout.list_item, prioridadesAlta);
+        spPrioridad.setAdapter(adapterPrioridad);
+
+        String[] tipos = getResources().getStringArray(R.array.tipos);
+        // Filtrar "Todos" de la lista de tipos para el alta
+        String[] tiposAlta = new String[tipos.length - 1];
+        System.arraycopy(tipos, 1, tiposAlta, 0, tipos.length - 1);
+
+        ArrayAdapter<String> adapterTipo = new ArrayAdapter<>(this, R.layout.list_item, tiposAlta);
+        spTipoDispositivo.setAdapter(adapterTipo);
     }
 
     private void guardarIncidencia() {
         String ubicacion = etUbicacion.getText().toString().trim();
         String descripcion = etDescripcion.getText().toString().trim();
+        String identificacion = etIdentificacion.getText().toString().trim();
         String prioridad = spPrioridad.getText().toString();
+        String tipo = spTipoDispositivo.getText().toString();
 
-        // Validación básica
-        if (ubicacion.isEmpty() || descripcion.isEmpty() || prioridad.isEmpty()) {
+        if (ubicacion.isEmpty() || descripcion.isEmpty() || prioridad.isEmpty() || tipo.isEmpty() || identificacion.isEmpty()) {
             Toast.makeText(this, "Por favor, complete todos los campos", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        // Crear objeto Incidencia con campos obligatorios
         Incidencia nuevaIncidencia = new Incidencia();
-        nuevaIncidencia.ubicacion = ubicacion; //
-        nuevaIncidencia.prioridad = prioridad; //
-        nuevaIncidencia.descripcion = descripcion; //
-        nuevaIncidencia.fechaHora = System.currentTimeMillis(); // Automática
-        nuevaIncidencia.estado = "Abierta"; // Estado inicial
+        nuevaIncidencia.ubicacion = ubicacion;
+        nuevaIncidencia.prioridad = prioridad;
+        nuevaIncidencia.tipoDispositivo = tipo;
+        nuevaIncidencia.identificacion = identificacion;
+        nuevaIncidencia.descripcion = descripcion;
+        nuevaIncidencia.fechaHora = System.currentTimeMillis();
+        nuevaIncidencia.estado = "Abierta";
 
-        // Operación en hilo secundario (Room requiere no usar el hilo principal)
         new Thread(() -> {
             db.incidenciaDao().insert(nuevaIncidencia);
             runOnUiThread(() -> {
                 Toast.makeText(this, "Incidencia registrada con éxito", Toast.LENGTH_SHORT).show();
-                finish(); // Volver a la pantalla principal
+                finish();
             });
         }).start();
     }

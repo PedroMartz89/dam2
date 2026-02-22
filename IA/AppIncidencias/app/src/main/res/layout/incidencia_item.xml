@@ -34,7 +34,6 @@
                     android:id="@+id/tvUbicacion"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Aula 102"
                     android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                     android:textStyle="bold" />
 
@@ -45,7 +44,6 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:text="Abierta"
                     app:chipMinHeight="24dp"
                     android:textSize="12sp" />
             </RelativeLayout>
@@ -54,7 +52,6 @@
                 android:id="@+id/tvTipo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Proyector"
                 android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
                 android:textColor="?attr/colorSecondary"
                 android:layout_marginTop="4dp" />
@@ -63,11 +60,20 @@
                 android:id="@+id/tvDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No enciende tras apagón."
                 android:textAppearance="@style/TextAppearance.Material3.BodySmall"
                 android:layout_marginTop="8dp"
                 android:maxLines="2"
                 android:ellipsize="end" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnResolver"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:text="Marcar como resuelta"
+                app:icon="@android:drawable/checkbox_on_background" />
 
         </LinearLayout>
     </LinearLayout>
